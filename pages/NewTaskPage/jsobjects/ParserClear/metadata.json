@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68178e172d3f7f10acddd368_89f25e01-5a93-47f1-b8f9-d86258658035",
+  "id": "NewTaskPage_ParserClear",
+  "unpublishedCollection": {
+    "name": "ParserClear",
+    "pageId": "NewTaskPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

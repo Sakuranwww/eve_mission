@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68178e172d3f7f10acddd368_a8b09f22-5bc2-4cad-b082-0ce0e97c720b",
+  "id": "RegisterPage_RegisterHandler",
+  "unpublishedCollection": {
+    "name": "RegisterHandler",
+    "pageId": "RegisterPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

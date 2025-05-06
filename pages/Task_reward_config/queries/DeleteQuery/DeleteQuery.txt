@@ -1,0 +1,2 @@
+DELETE FROM task_reward_config
+  WHERE id = {{data_table.triggeredRow.id}};

@@ -1,0 +1,5 @@
+SELECT 
+  task_name, 
+  postcharacter, 
+  posted_at 
+FROM task_log;

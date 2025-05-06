@@ -1,0 +1,26 @@
+INSERT INTO task_log (
+  status,
+  task_name,
+  reward_amount,
+  tag,
+  region,
+  star_system,
+  constellation,
+  posted_at,
+  poster,
+  postcharacter,
+  source_text
+)
+VALUES (
+  '{{this.params.status}}',
+  '{{this.params.task_name}}',
+  {{this.params.reward_amount}},
+  '{{this.params.tag}}',
+  '{{this.params.region}}',
+  '{{this.params.star_system}}',
+  '{{this.params.constellation}}',
+  '{{this.params.posted_at}}',
+  '{{this.params.poster}}',
+  '{{this.params.postcharacter}}',
+  '{{this.params.source_text}}'
+);

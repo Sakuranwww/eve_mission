@@ -1,0 +1,19 @@
+INSERT INTO task_log (
+  task_name, reward_amount, tag, star_system, constellation, region,
+  posted_at, poster, postcharacter, status
+) VALUES
+(
+  '自由根除（3/3）', 26000000, '[自由根除（3/3）][26M][5zongPrime]',
+  'FY0W-N', '1P-VL2', '特布特',
+  '2025-05-06 06:24:00', '5zongPrime', '5zong', '待接受'
+),
+(
+  '口水战', 26000000, '[口水战][26M][5zongPrime]',
+  '塔伊斯', '弥陀', '长征',
+  '2025-05-06 06:36:00', '5zongPrime', '5zong II', '待接受'
+),
+(
+  '自由追捕（2/3）', 26000000, '[自由追捕（2/3）][26M][5zongPrime]',
+  'E-OGL4', '1P-VL2', '特布特',
+  '2025-05-06 06:43:00', '5zongPrime', '5zong PVEVP', '待接受'
+);

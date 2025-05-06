@@ -1,0 +1,3 @@
+SELECT * FROM users
+WHERE username = '{{new_email.text}}'
+   OR email = '{{new_username_input.text}}';

@@ -1,0 +1,26 @@
+INSERT INTO task_log (
+	status,
+	task_name,
+	reward_amount,
+	tag,
+	region,
+	star_system,
+	posted_at,
+	poster,
+	accepted_at,
+	acceptor,
+	completed_at
+)
+VALUES (
+	'{{insert_form.formData.status}}',
+	'{{insert_form.formData.task_name}}',
+	'{{insert_form.formData.reward_amount}}',
+	'{{insert_form.formData.tag}}',
+	'{{insert_form.formData.region}}',
+	'{{insert_form.formData.star_system}}',
+	'{{insert_form.formData.posted_at}}',
+	'{{insert_form.formData.poster}}',
+	'{{insert_form.formData.accepted_at}}',
+	'{{insert_form.formData.acceptor}}',
+	'{{insert_form.formData.completed_at}}'
+);

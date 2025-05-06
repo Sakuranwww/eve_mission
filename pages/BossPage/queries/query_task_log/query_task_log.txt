@@ -1,0 +1,4 @@
+SELECT *
+FROM task_log
+WHERE poster = '{{ appsmith.store.username }}'
+ORDER BY posted_at DESC;

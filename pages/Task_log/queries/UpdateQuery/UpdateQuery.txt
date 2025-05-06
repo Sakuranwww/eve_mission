@@ -1,0 +1,13 @@
+UPDATE task_log SET
+		status = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}',
+		task_name = '{{update_form.fieldState.task_name.isVisible ? update_form.formData.task_name : update_form.sourceData.task_name}}',
+    reward_amount = '{{update_form.fieldState.reward_amount.isVisible ? update_form.formData.reward_amount : update_form.sourceData.reward_amount}}',
+		tag = '{{update_form.fieldState.tag.isVisible ? update_form.formData.tag : update_form.sourceData.tag}}',
+		region = '{{update_form.fieldState.region.isVisible ? update_form.formData.region : update_form.sourceData.region}}',
+		star_system = '{{update_form.fieldState.star_system.isVisible ? update_form.formData.star_system : update_form.sourceData.star_system}}',
+		posted_at = '{{update_form.fieldState.posted_at.isVisible ? update_form.formData.posted_at : update_form.sourceData.posted_at}}',
+		poster = '{{update_form.fieldState.poster.isVisible ? update_form.formData.poster : update_form.sourceData.poster}}',
+		accepted_at = '{{update_form.fieldState.accepted_at.isVisible ? update_form.formData.accepted_at : update_form.sourceData.accepted_at}}',
+		acceptor = '{{update_form.fieldState.acceptor.isVisible ? update_form.formData.acceptor : update_form.sourceData.acceptor}}',
+		completed_at = '{{update_form.fieldState.completed_at.isVisible ? update_form.formData.completed_at : update_form.sourceData.completed_at}}'
+  WHERE id = {{data_table.selectedRow.id}};

@@ -1,0 +1,48 @@
+{
+  "appIsExample": false,
+  "applicationVersion": 1,
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "LoginPage",
+      "isDefault": false
+    },
+    {
+      "id": "HomePage",
+      "isDefault": true
+    },
+    {
+      "id": "RegisterPage",
+      "isDefault": false
+    },
+    {
+      "id": "ToolPage",
+      "isDefault": false
+    },
+    {
+      "id": "Task_reward_config",
+      "isDefault": false
+    },
+    {
+      "id": "Users",
+      "isDefault": false
+    },
+    {
+      "id": "Task_log",
+      "isDefault": false
+    },
+    {
+      "id": "BossPage",
+      "isDefault": false
+    },
+    {
+      "id": "NewTaskPage",
+      "isDefault": false
+    }
+  ]
+}

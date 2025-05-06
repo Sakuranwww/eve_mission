@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "46gh2w00ie",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 57,
+  "onClick": "{{ \n  storeValue(\"username\", \"\"); \n  storeValue(\"role\", \"\"); \n  storeValue(\"register_status\", \"\"); \n  storeValue(\"login_error\", \"\"); \n  navigateTo(\"HomePage\", {}, \"SAME_WINDOW\"); \n}}",
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
+  "parentColumnSpace": 13,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "退出登录",
+  "topRow": 8,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "m3dg1d6tee",
+  "widgetName": "signout"
+}
