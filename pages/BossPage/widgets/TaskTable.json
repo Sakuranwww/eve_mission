@@ -136,11 +136,17 @@
     },
     {
       "key": "primaryColumns.status.cellBackground"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "dynamicTriggerPathList": [
     {
       "key": "onRowSelected"
+    },
+    {
+      "key": "onPageChange"
     }
   ],
   "enableClientSideSearch": true,
@@ -175,6 +181,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onPageChange": "{{ query_task_log.run() }}",
   "onRowSelected": "{{}}",
   "parentColumnSpace": 12.234375,
   "parentId": "0",
@@ -185,7 +192,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "text",
-      "computedValue": "{{TaskTable.processedTableData.map((currentRow, currentIndex) => (  moment(currentRow[\"accepted_at\"]).format(\"YYYY-MM-DD HH:mm:ss\") ))}}",
+      "computedValue": "{{TaskTable.processedTableData.map((currentRow, currentIndex) => (  currentRow.accepted_at ? moment(currentRow.accepted_at).format(\"YYYY-MM-DD HH:mm\") : \"\" ))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -247,7 +254,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "text",
-      "computedValue": "{{TaskTable.processedTableData.map((currentRow, currentIndex) => (  moment(currentRow[\"completed_at\"]).format(\"YYYY-MM-DD HH:mm:ss\") ))}}",
+      "computedValue": "{{TaskTable.processedTableData.map((currentRow, currentIndex) => (  currentRow.completed_at ? moment(currentRow.completed_at).format(\"YYYY-MM-DD HH:mm\") : \"\" ))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -661,6 +668,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": false,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{ \n  query_task_log.data.filter(t => \n    (appsmith.store.filter_pending && t.status === \"待接受\") ||\n    (appsmith.store.filter_accepted && t.status === \"已接受\") ||\n    (appsmith.store.filter_completed && t.status === \"已完成\") ||\n    (appsmith.store.filter_settled && t.status === \"已结算\") ||\n    (appsmith.store.filter_returned && t.status === \"返工\")\n  )\n}}",
   "tags": [
@@ -670,7 +678,7 @@
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
   "topRow": 24,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "10",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
