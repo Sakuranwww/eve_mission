@@ -20,7 +20,13 @@
           }
         },
         "projection": {
-          "data": []
+          "componentData": [
+            "task_name",
+            "region",
+            "posted_at"
+          ],
+          "data": "[\n\t\"task_name\",\n\t\"star_system\",\n\t\"posted_at\"\n]",
+          "viewType": "json"
         },
         "queryFormat": {
           "data": "ROWS"
