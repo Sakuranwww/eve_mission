@@ -22,12 +22,12 @@
         "projection": {
           "componentData": [
             "task_name",
-            "region",
+            "postcharacter",
             "posted_at"
           ],
-          "data": [],
+          "data": "[\n\t\"task_name\",\n\t\"postcharacter\",\n\t\"posted_at\"\n]",
           "jsonData": "",
-          "viewType": "component"
+          "viewType": "json"
         },
         "queryFormat": {
           "data": "ROWS"
