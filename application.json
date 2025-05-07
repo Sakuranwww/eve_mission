@@ -1,5 +1,12 @@
 {
   "appIsExample": false,
+  "applicationDetail": {
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
   "applicationVersion": 1,
   "embedSetting": {
     "height": "720px",
@@ -44,5 +51,12 @@
       "id": "NewTaskPage",
       "isDefault": false
     }
-  ]
+  ],
+  "unpublishedApplicationDetail": {
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
 }
