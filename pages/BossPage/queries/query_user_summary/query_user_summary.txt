@@ -1,5 +1,0 @@
-SELECT 
-  COUNT(*) AS total_tasks, 
-  SUM(reward_amount) AS total_isk
-FROM task_log
-WHERE status = '已结算' AND poster = '{{ appsmith.store.username }}';

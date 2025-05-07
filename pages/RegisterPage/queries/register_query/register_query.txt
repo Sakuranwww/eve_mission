@@ -1,2 +1,0 @@
-INSERT INTO users (username, password, role, email)
-VALUES ('{{new_email.text}}', '{{new_password_input.text}}', 'user', '{{new_username_input.text}}');

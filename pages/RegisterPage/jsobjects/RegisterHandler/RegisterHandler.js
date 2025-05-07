@@ -1,7 +1,7 @@
 export default {
   handleRegister: async () => {
-    const username = new_email.text;
-    const email = new_username_input.text;
+    const username = new_username_input.text;
+    const email = new_email.text;
     const password = new_password_input.text;
     const confirm = new_password_check.text;
 

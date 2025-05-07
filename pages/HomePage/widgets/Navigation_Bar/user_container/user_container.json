@@ -88,7 +88,7 @@
   "isLoading": false,
   "isVisible": "{{ !!appsmith.store.username }}",
   "key": "8oih924jen",
-  "leftColumn": 11,
+  "leftColumn": 4,
   "maxDynamicHeight": 18,
   "minDynamicHeight": 6,
   "minWidth": 450,
@@ -111,7 +111,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53,
+  "rightColumn": 46,
   "searchTags": [
     "div",
     "parent",

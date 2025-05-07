@@ -14,6 +14,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "hideCard": false,
   "iconName": "cross",
   "iconSVG": "/static/media/icon.e5045469a82b76384d0c537fc9545012.svg",
@@ -37,7 +42,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(Modal1.name);}}",
+  "onClick": "{{closeModal(modal_help.name);}}",
   "parentId": "wzopsq95zt",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",

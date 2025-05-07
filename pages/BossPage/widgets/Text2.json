@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 15,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -44,6 +44,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
   "parentId": "0",
@@ -61,11 +63,11 @@
     "Suggested",
     "Content"
   ],
-  "text": "你过去一共发了 {{ query_user_summary.data[0].total_isk }} ISK工资，结算了 {{ query_user_summary.data[0].total_tasks }} 个任务",
+  "text": "你过去一共发了 {{ CalculateUserSummary.formatISK(appsmith.store.userSummary?.total_isk || 0) }} ISK 工资，结算了 {{ appsmith.store.userSummary?.total_tasks || 0 }} 个任务",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 12,
+  "topRow": 11,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

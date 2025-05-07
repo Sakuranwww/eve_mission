@@ -36,7 +36,7 @@
   "isLoading": false,
   "isVisible": "{{ !appsmith.store.username }}",
   "key": "gayszm0q3h",
-  "leftColumn": 55,
+  "leftColumn": 53,
   "minWidth": 120,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 47,

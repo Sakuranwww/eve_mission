@@ -42,18 +42,6 @@
       "isDefault": false
     },
     {
-      "id": "Task_reward_config",
-      "isDefault": false
-    },
-    {
-      "id": "Users",
-      "isDefault": false
-    },
-    {
-      "id": "Task_log",
-      "isDefault": false
-    },
-    {
       "id": "BossPage",
       "isDefault": false
     },

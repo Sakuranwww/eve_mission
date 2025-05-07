@@ -1,6 +1,0 @@
-UPDATE users SET
-		username = '{{update_form.fieldState.username.isVisible ? update_form.formData.username : update_form.sourceData.username}}',
-		password = '{{update_form.fieldState.password.isVisible ? update_form.formData.password : update_form.sourceData.password}}',
-    role = '{{update_form.fieldState.role.isVisible ? update_form.formData.role : update_form.sourceData.role}}',
-		email = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}'
-WHERE id = {{data_table.selectedRow.id}};
