@@ -39,15 +39,15 @@
     "region",
     "star_system",
     "constellation",
-    "post_at",
     "poster",
     "post_character",
     "accpet_at",
     "acceptor",
     "compeleted_at",
-    "rowIndex"
+    "rowIndex",
+    "posted_at"
   ],
-  "columnUpdatedAt": 1746636316636,
+  "columnUpdatedAt": 1746642143334,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -92,9 +92,6 @@
       "key": "primaryColumns.constellation.computedValue"
     },
     {
-      "key": "primaryColumns.post_at.computedValue"
-    },
-    {
       "key": "primaryColumns.poster.computedValue"
     },
     {
@@ -117,6 +114,9 @@
     },
     {
       "key": "primaryColumns.status.textColor"
+    },
+    {
+      "key": "primaryColumns.posted_at.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -280,37 +280,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "post_at": {
-      "alias": "post_at",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"post_at\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "post_at",
-      "index": 7,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "post_at",
-      "notation": "standard",
-      "originalId": "post_at",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "post_character": {
       "alias": "post_character",
       "allowCellWrapping": false,
@@ -336,6 +305,40 @@
       "notation": "standard",
       "originalId": "post_character",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "posted_at": {
+      "alias": "posted_at",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"posted_at\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "posted_at",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "posted_at",
+      "notation": "standard",
+      "originalId": "posted_at",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

@@ -28,10 +28,11 @@ export default {
   },
 
   /**
-   * 格式化 ISK 金额，带逗号分隔符
+   * 使用 toLocaleString 格式化 ISK 金额
    */
   formatISK: function(amount) {
     if (!amount || isNaN(amount)) return "0";
-    return new Intl.NumberFormat().format(amount);
+
+    return Number(amount).toLocaleString();
   }
 };
