@@ -55,7 +55,7 @@ export default {
         cfg.task_name.trim().normalize() === taskName
       );
 
-      if (!config) {
+      if (!config) {config.task_name !== taskName
         statusText = "❌ 任务名错误";
       } else if (config.reward_amount !== rewardAmount) {
         statusText = "❌ 酬劳错误";
