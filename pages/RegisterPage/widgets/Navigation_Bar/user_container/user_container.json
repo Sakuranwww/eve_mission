@@ -48,7 +48,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "52skgoxb99",
+      "parentId": "bjr7s7s4kz",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,7 +56,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "cy5w9m5i1e",
+      "widgetId": "9zone2fd0p",
       "widgetName": "Canvas3"
     }
   ],
@@ -104,10 +104,10 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 14,
-  "originalTopRow": 8,
+  "originalBottomRow": 6,
+  "originalTopRow": 0,
   "parentColumnSpace": 12.234375,
-  "parentId": "dza69ejoz7",
+  "parentId": "35zp7febf7",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -125,6 +125,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "52skgoxb99",
+  "widgetId": "bjr7s7s4kz",
   "widgetName": "user_container"
 }

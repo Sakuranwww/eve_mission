@@ -48,7 +48,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "mcyg2bpoor",
+      "parentId": "ajeelenryy",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,8 +56,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ucznmhmaax",
-      "widgetName": "Canvas1"
+      "widgetId": "b6bgnr74r1",
+      "widgetName": "Canvas1Copy"
     }
   ],
   "containerStyle": "card",
@@ -115,6 +115,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "mcyg2bpoor",
+  "widgetId": "ajeelenryy",
   "widgetName": "Navigation_Bar"
 }

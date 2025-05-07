@@ -48,7 +48,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "8uo95u2338",
+      "parentId": "6uv1qkcvml",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,7 +56,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "50c1xtwzp5",
+      "widgetId": "pycbfow1gh",
       "widgetName": "Canvas3"
     }
   ],
@@ -107,7 +107,7 @@
   "originalBottomRow": 6,
   "originalTopRow": 0,
   "parentColumnSpace": 12.234375,
-  "parentId": "l21775i5as",
+  "parentId": "zhvwgyi8sd",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -125,6 +125,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "8uo95u2338",
+  "widgetId": "6uv1qkcvml",
   "widgetName": "user_container"
 }
