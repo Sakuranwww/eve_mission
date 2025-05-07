@@ -1,5 +1,6 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -60,9 +61,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "[\n  0\n]",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -158,7 +157,9 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 34,
   "mobileTopRow": 23,
+  "multiRowSelection": true,
   "needsErrorInfo": false,
+  "onRowSelected": "",
   "originalBottomRow": 89,
   "originalTopRow": 22,
   "parentColumnSpace": 13.40625,
