@@ -46,6 +46,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "originalBottomRow": 27,
+  "originalTopRow": 6,
   "parentColumnSpace": 12.234375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -67,7 +69,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 8,
+  "topRow": 6,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "7x2ve3joz9",

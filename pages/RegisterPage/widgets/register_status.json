@@ -23,6 +23,8 @@
   "leftColumn": 27,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
   "overflow": "NONE",
   "parentColumnSpace": 13,
   "parentId": "0",

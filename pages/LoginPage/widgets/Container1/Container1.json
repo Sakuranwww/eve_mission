@@ -93,8 +93,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 24,
-  "originalTopRow": 11,
+  "originalBottomRow": 44,
+  "originalTopRow": 21,
   "parentColumnSpace": 12.234375,
   "parentId": "0",
   "parentRowSpace": 10,

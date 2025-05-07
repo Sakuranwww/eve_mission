@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 14,
+  "bottomRow": 10,
   "boxShadow": "none",
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -28,8 +28,8 @@
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 14,
-  "originalTopRow": 10,
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
   "overflow": "NONE",
   "parentColumnSpace": 13,
   "parentId": "0",
@@ -39,7 +39,7 @@
   "text": "欢迎回来，当前账户名：{{ appsmith.store.username }}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 10,
+  "topRow": 6,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "sziu6p9mu6",

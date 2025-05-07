@@ -25,7 +25,7 @@
   "isVisible": true,
   "key": "46gh2w00ie",
   "labelTextSize": "0.875rem",
-  "leftColumn": 60,
+  "leftColumn": 59,
   "onClick": "{{ \n  storeValue(\"username\", \"\"); \n  storeValue(\"role\", \"\"); \n  storeValue(\"register_status\", \"\"); \n  storeValue(\"login_error\", \"\"); \n  navigateTo(\"HomePage\", {}, \"SAME_WINDOW\"); \n}}",
   "originalBottomRow": 14,
   "originalTopRow": 10,
