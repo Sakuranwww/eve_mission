@@ -1,6 +1,16 @@
 {
   "appIsExample": false,
   "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
@@ -53,6 +63,16 @@
     }
   ],
   "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
