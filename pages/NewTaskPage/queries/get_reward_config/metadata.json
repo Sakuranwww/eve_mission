@@ -20,7 +20,12 @@
           }
         },
         "projection": {
-          "data": []
+          "componentData": [
+            "task_name",
+            "reward_amount"
+          ],
+          "data": "[\n\t\"task_name\",\n\t\"reward_amount\"\n]",
+          "viewType": "json"
         },
         "queryFormat": {
           "data": "ROWS"
