@@ -28,7 +28,7 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 74,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue('parsed_tasks', !appsmith.store.parsed_tasks);}}",
+  "onClick": "{{removeValue('parsed_tasks');}}",
   "originalBottomRow": 78,
   "originalTopRow": 74,
   "parentColumnSpace": 22.109375,

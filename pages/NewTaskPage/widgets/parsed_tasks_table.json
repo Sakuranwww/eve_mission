@@ -51,7 +51,7 @@
     "constellation": 82,
     "customColumn1": 100,
     "customColumn2": 98,
-    "postcharacter": 116,
+    "postcharacter": 188,
     "posted_at": 172,
     "poster": 106,
     "region": 89.99999999999999,
@@ -172,13 +172,13 @@
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
     },
     {
-      "key": "primaryColumns.status.onClick"
-    },
-    {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
     },
     {
       "key": "primaryColumns.xn__y5qx0eo9ow17a.textColor"
+    },
+    {
+      "key": "primaryColumns.status.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -531,7 +531,7 @@
       "isVisible": true,
       "label": "操作",
       "notation": "standard",
-      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter } = currentRow;\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === posted_at &&\n          t.postcharacter === postcharacter\n        )\n    );\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
+      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter, \"能否录入\": canRecord, \"识别状态\": status } = currentRow;\n    const parsedTasks = appsmith.store.parsed_tasks || [];\n    let deleteFlag = false;\n    const updated = parsedTasks.filter(task => {\n      const isMatch =\n        task.task_name === task_name &&\n        task.posted_at === posted_at &&\n        task.postcharacter === postcharacter &&\n        task[\"能否录入\"] === canRecord &&\n        task[\"识别状态\"] === status;\n      if (isMatch && !deleteFlag) {\n        deleteFlag = true;  // \n        return false;       // \n      }\n      return true;\n    });\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
       "originalId": "status",
       "sticky": "left",
       "textColor": "",
