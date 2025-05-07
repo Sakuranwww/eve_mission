@@ -10,11 +10,17 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,9 +34,9 @@
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{ !!appsmith.store.username }}",
   "key": "bgqtj1686t",
-  "leftColumn": 14,
+  "leftColumn": 8,
   "minWidth": 120,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
@@ -46,14 +52,14 @@
   },
   "onClick": "{{ navigateTo(\"BossPage\") }}\n",
   "parentColumnSpace": 7.51123046875,
-  "parentId": "uux7uj3bio",
+  "parentId": "b6bgnr74r1",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 21,
+  "rightColumn": 12,
   "searchTags": [
     "click",
     "submit"

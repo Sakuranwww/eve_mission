@@ -10,11 +10,17 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,9 +34,9 @@
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{ !!appsmith.store.username }}",
   "key": "bgqtj1686t",
-  "leftColumn": 7,
+  "leftColumn": 12,
   "minWidth": 120,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
@@ -44,16 +50,16 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ navigateTo(\"LeaderboardPage\") }}\n",
+  "onClick": "{{ navigateTo(\"SlavePage\") }}\n",
   "parentColumnSpace": 7.51123046875,
-  "parentId": "uux7uj3bio",
+  "parentId": "b6bgnr74r1",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 14,
+  "rightColumn": 16,
   "searchTags": [
     "click",
     "submit"
@@ -61,11 +67,11 @@
   "tags": [
     "Buttons"
   ],
-  "text": "榜单",
+  "text": "打手面板",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ftp0jj6hhm",
-  "widgetName": "LeaderboardPage"
+  "widgetId": "x6fct1e20j",
+  "widgetName": "SlavePage"
 }
