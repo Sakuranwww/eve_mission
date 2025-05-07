@@ -51,11 +51,11 @@ export default {
       let statusText = "✅ 识别成功";
 
       // 9. 校验任务是否存在于配置中，酬劳是否一致，poster是否合法，角色名长度限制
-     const config = configList.find(cfg =>
-			  cfg.task_name.trim().normalize() === taskName
-			);
-			
- 			if (!config) {
+      const config = configList.find(cfg =>
+        cfg.task_name.trim().normalize() === taskName
+      );
+
+      if (!config) {
         statusText = "❌ 任务名错误";
       } else if (config.reward_amount !== rewardAmount) {
         statusText = "❌ 酬劳错误";
