@@ -1,4 +1,28 @@
 export default {
+  /**
+   * 将 Unix 时间戳（毫秒）转换为 YYYY-MM-DD HH:MM:SS 格式
+   * @param {number} timestamp - Unix 时间戳（毫秒）
+   * @returns {string} - 格式化后的时间字符串
+   */
+  formatTimestamp: (timestamp) => {
+    if (!timestamp || typeof timestamp !== "number") {
+      return "0000-00-00 00:00:00";
+    }
+
+    const date = new Date(timestamp);
+    const year = date.getUTCFullYear();
+    const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+    const day = String(date.getUTCDate()).padStart(2, "0");
+    const hour = String(date.getUTCHours()).padStart(2, "0");
+    const minute = String(date.getUTCMinutes()).padStart(2, "0");
+    const second = String(date.getUTCSeconds()).padStart(2, "0");
+
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+  },
+
+  /**
+   * 解析任务文本并检查重复性
+   */
   parseTaskLines: () => {
     // 1. 获取原始输入文本
     const raw = input_raw_text.text || "";
@@ -13,6 +37,17 @@ export default {
 
     const errors = [];        // 存储格式错误行信息
     const tempParsed = [];    // 存储当前导入过程中解析出的任务
+
+    /**
+     * 统一格式化 `dbRecords` 中的 `posted_at` 字段
+     * 将 Unix 时间戳（毫秒）转换为 `YYYY-MM-DD HH:MM:SS` 格式
+     */
+    const formattedDbRecords = dbRecords.map(record => ({
+      ...record,
+      posted_at: this.formatTimestamp(record.posted_at)
+    }));
+
+    console.log("✅ 转换后的 dbRecords 数据: ", formattedDbRecords);
 
     // 4. 遍历每一行文本
     const parsed = lines.map((line, index) => {
@@ -65,28 +100,41 @@ export default {
         statusText = "❌ 发布角色名过长";
       }
 
-      // 10. 判断是否在当前粘贴内容中重复（任务名+角色+时间）
+      /**
+       * 10. 判断是否在当前粘贴内容中重复（任务名+角色+时间）
+       */
       const isLocalDuplicate = tempParsed.some(entry =>
         entry.task_name.trim().normalize() === taskName &&
         entry.postcharacter === postcharacter &&
-        entry.posted_at.slice(0, 16) === postedAt.slice(0, 16)
+        entry.posted_at === postedAt
       );
 
-      // 11. 判断是否与数据库中任务重复（任务名+角色+时间）
-      const isDbDuplicate = dbRecords.some(entry =>
-        entry.task_name.trim().normalize() === taskName &&
-        entry.postcharacter.trim() === postcharacter &&
-        entry.posted_at.replace("T", " ").slice(0, 16) === postedAt.slice(0, 16)
-      );
+      /**
+       * 11. 判断是否与数据库中任务重复（任务名+角色+时间）
+       */
+      const isDbDuplicate = formattedDbRecords.some(entry => {
+        const isDuplicate = (
+          entry.task_name.trim().normalize() === taskName &&
+          entry.postcharacter.trim() === postcharacter &&
+          entry.posted_at === postedAt
+        );
 
+        if (isDuplicate) {
+          console.log(`⚠️ 数据库中的重复任务 - 任务名: ${taskName}, 角色: ${postcharacter}, 时间: ${postedAt}`);
+        }
+
+        return isDuplicate;
+      });
+
+      // 12. 如果存在重复任务，标记状态为 "❌ 重复任务"
       if (isLocalDuplicate || isDbDuplicate) {
         statusText = "❌ 重复任务";
       }
 
-      // 12. 只有状态为识别成功的才允许录入
+      // 13. 只有状态为识别成功的才允许录入
       const canRecord = statusText === "✅ 识别成功" ? "是" : "否";
 
-      // 13. 构建解析后的对象
+      // 14. 构建解析后的对象
       const parsedRow = {
         task_name: taskNameRaw,
         reward_amount: rewardAmount,
@@ -102,18 +150,18 @@ export default {
         "识别状态": statusText
       };
 
-      // 14. 加入当前解析列表，用于后续查重
+      // 15. 加入当前解析列表，用于后续查重
       tempParsed.push(parsedRow);
       return parsedRow;
     });
 
-    // 15. 有格式错误就直接报错退出
+    // 16. 有格式错误就直接报错退出
     if (errors.length > 0) {
       showAlert(errors.join("\n"), "error");
       return;
     }
 
-    // 16. 最终写入 store
+    // 17. 最终写入 store
     storeValue("parsed_tasks", parsed);
     showAlert("✅ 解析成功！", "success");
   }

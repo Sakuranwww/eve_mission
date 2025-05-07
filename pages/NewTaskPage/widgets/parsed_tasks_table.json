@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 69,
+  "bottomRow": 70,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -35,17 +35,17 @@
     "xn__y5qx0eo9ow17a",
     "xn__mcr205aqsohux",
     "task_name",
-    "tag",
     "reward_amount",
-    "star_system",
-    "constellation",
-    "region",
     "posted_at",
     "poster",
     "postcharacter",
+    "tag",
+    "star_system",
+    "constellation",
+    "region",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1746532604937,
+  "columnUpdatedAt": 1746649457574,
   "columnWidthMap": {
     "can_record": 94,
     "constellation": 82,
@@ -81,18 +81,6 @@
     },
     {
       "key": "primaryColumns.task_name.computedValue"
-    },
-    {
-      "key": "primaryColumns.tag.computedValue"
-    },
-    {
-      "key": "primaryColumns.star_system.computedValue"
-    },
-    {
-      "key": "primaryColumns.constellation.computedValue"
-    },
-    {
-      "key": "primaryColumns.region.computedValue"
     },
     {
       "key": "primaryColumns.posted_at.computedValue"
@@ -144,6 +132,30 @@
     },
     {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
+    },
+    {
+      "key": "primaryColumns.tag.textColor"
+    },
+    {
+      "key": "primaryColumns.tag.computedValue"
+    },
+    {
+      "key": "primaryColumns.star_system.textColor"
+    },
+    {
+      "key": "primaryColumns.star_system.computedValue"
+    },
+    {
+      "key": "primaryColumns.constellation.textColor"
+    },
+    {
+      "key": "primaryColumns.constellation.computedValue"
+    },
+    {
+      "key": "primaryColumns.region.textColor"
+    },
+    {
+      "key": "primaryColumns.region.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -259,15 +271,17 @@
       "alias": "constellation",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"constellation\"])) :  currentRow[\"constellation\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"constellation\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "constellation",
-      "index": 4,
+      "index": 10,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -276,11 +290,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "星座",
+      "label": "constellation",
       "notation": "standard",
       "originalId": "constellation",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -389,15 +403,17 @@
       "alias": "region",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"region\"])) :  currentRow[\"region\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"region\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "region",
-      "index": 5,
+      "index": 11,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -406,11 +422,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "星域",
+      "label": "region",
       "notation": "standard",
       "originalId": "region",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -455,15 +471,17 @@
       "alias": "star_system",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"star_system\"])) :  currentRow[\"star_system\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"star_system\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "star_system",
-      "index": 3,
+      "index": 9,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -472,11 +490,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "星系",
+      "label": "star_system",
       "notation": "standard",
       "originalId": "star_system",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -527,15 +545,17 @@
       "alias": "tag",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"tag\"])) :  currentRow[\"tag\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tag\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "tag",
-      "index": 2,
+      "index": 8,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -544,11 +564,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "信标名",
+      "label": "tag",
       "notation": "standard",
       "originalId": "tag",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -669,7 +689,7 @@
   "textColor": "{{}}",
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 31,
+  "topRow": 32,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
