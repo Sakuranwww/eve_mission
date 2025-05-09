@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
   "applicationDetail": {
     "navigationSetting": {
       "colorStyle": "light",
@@ -9,7 +12,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -29,6 +32,10 @@
     {
       "id": "LoginPage Copy",
       "isDefault": true
+    },
+    {
+      "id": "HomePage Copy",
+      "isDefault": false
     },
     {
       "id": "任务合作社",
@@ -59,6 +66,9 @@
       "isDefault": false
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedApplicationDetail": {
     "navigationSetting": {
       "colorStyle": "light",
@@ -68,7 +78,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",

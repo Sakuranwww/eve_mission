@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 50,
+  "bottomRow": 53,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,6 +14,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -24,23 +27,23 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.cca02633.svg",
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "false",
   "isLoading": false,
   "isVisible": true,
   "key": "xmatypbkya",
   "labelTextSize": "0.875rem",
-  "leftColumn": 38,
-  "onClick": "{{ \n  login_query.run(() => {\n    if (login_query.data.length > 0) {\n      storeValue('username', username_input.text); \n      storeValue('role', login_query.data[0].role);  // ✅ 加这一行\n      navigateTo(\"HomePage\", {}, \"SAME_WINDOW\");\n    } else {\n      showAlert('用户名或密码错误', 'error');\n    }\n  }, (err) => {\n    showAlert('查询失败，请检查连接', 'error');\n  })\n}}",
-  "originalBottomRow": 50,
-  "originalTopRow": 46,
+  "leftColumn": 42,
+  "onClick": "{{\n  login_query.run(() => {\n    if (login_query.data.length > 0) {\n      storeValue('username', username_input.text); \n      storeValue('role', login_query.data[0].role); \n      storeValue('isLoggedIn', true); // ✅ 加这一行\n      navigateTo(\"HomePage\", {}, \"SAME_WINDOW\"); // 确保这里的页面名称是你要跳转的页面\n    } else {\n      showAlert('用户名或密码错误', 'error');\n    }\n  }, (err) => {\n    showAlert('查询失败，请检查连接', 'error');\n  })\n}}\n",
+  "originalBottomRow": 53,
+  "originalTopRow": 49,
   "parentColumnSpace": 13,
   "parentId": "baadvau62x",
   "parentRowSpace": 10,
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "text": "登录\n",
-  "topRow": 46,
+  "topRow": 49,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "nk33yveo9w",
