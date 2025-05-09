@@ -286,17 +286,18 @@
       "widgetName": "Canvas7"
     }
   ],
-  "defaultTab": "{{ appsmith.store.activeTab || \"老板面板\" }}",
+  "defaultTab": "老板面板",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "defaultTab"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onTabSelected"
@@ -316,7 +317,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "onTabSelected": "",
+  "onTabSelected": "{{ storeValue(\"activeTab\", \"解析面板\") }}",
   "parentColumnSpace": 15.671875,
   "parentId": "0",
   "parentRowSpace": 10,

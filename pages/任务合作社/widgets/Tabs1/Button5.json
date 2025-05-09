@@ -15,7 +15,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -43,7 +47,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "",
+  "onClick": "{{ storeValue(\"activeTab\", \"解析面板\") }}\n",
   "originalBottomRow": 41,
   "originalTopRow": 37,
   "parentColumnSpace": 12.234375,

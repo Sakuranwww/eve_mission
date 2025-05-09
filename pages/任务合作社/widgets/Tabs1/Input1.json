@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "boxShadow": "none",
   "defaultText": "{{(appsmith.store.username || \"未登录\") }}",
   "dynamicBindingPathList": [
