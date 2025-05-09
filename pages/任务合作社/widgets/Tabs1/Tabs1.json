@@ -40,7 +40,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "pot3drw1b8",
+      "parentId": "jcvjuvkdjs",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -51,7 +51,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "xm13q2s7if",
+      "widgetId": "uagq1ychse",
       "widgetName": "Canvas1"
     },
     {
@@ -86,7 +86,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "pot3drw1b8",
+      "parentId": "jcvjuvkdjs",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -97,7 +97,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ugmomav1ck",
+      "widgetId": "6w47g4p3mx",
       "widgetName": "Canvas2"
     },
     {
@@ -132,7 +132,7 @@
       "mobileTopRow": 1,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "pot3drw1b8",
+      "parentId": "jcvjuvkdjs",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -142,7 +142,7 @@
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "0cba3ha510",
+      "widgetId": "ld86t27n0m",
       "widgetName": "Canvas3"
     },
     {
@@ -177,7 +177,7 @@
       "mobileTopRow": 1,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "pot3drw1b8",
+      "parentId": "jcvjuvkdjs",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -187,7 +187,7 @@
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "8u54u06j58",
+      "widgetId": "pt9c52gb41",
       "widgetName": "Canvas5"
     },
     {
@@ -222,7 +222,7 @@
       "mobileTopRow": 1,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "pot3drw1b8",
+      "parentId": "jcvjuvkdjs",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -232,7 +232,7 @@
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "sdsyjmvk83",
+      "widgetId": "hh59ae5fmo",
       "widgetName": "Canvas6"
     }
   ],
@@ -268,7 +268,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {
@@ -279,7 +279,7 @@
       "isVisible": true,
       "label": "做点工具",
       "positioning": "vertical",
-      "widgetId": "xm13q2s7if"
+      "widgetId": "uagq1ychse"
     },
     "tab2": {
       "id": "tab2",
@@ -288,7 +288,7 @@
       "isVisible": true,
       "label": "任务面板",
       "positioning": "vertical",
-      "widgetId": "ugmomav1ck"
+      "widgetId": "6w47g4p3mx"
     },
     "tab6om9z8nkh2": {
       "id": "tab6om9z8nkh2",
@@ -296,7 +296,7 @@
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "榜单",
-      "widgetId": "0cba3ha510"
+      "widgetId": "ld86t27n0m"
     },
     "tabrd6o42md3z": {
       "id": "tabrd6o42md3z",
@@ -304,7 +304,7 @@
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "老板面板",
-      "widgetId": "8u54u06j58"
+      "widgetId": "pt9c52gb41"
     },
     "tabtlljfqf2fl": {
       "id": "tabtlljfqf2fl",
@@ -312,12 +312,12 @@
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "打手面板",
-      "widgetId": "sdsyjmvk83"
+      "widgetId": "hh59ae5fmo"
     }
   },
   "topRow": 0,
   "type": "TABS_WIDGET",
   "version": 3,
-  "widgetId": "pot3drw1b8",
+  "widgetId": "jcvjuvkdjs",
   "widgetName": "Tabs1"
 }

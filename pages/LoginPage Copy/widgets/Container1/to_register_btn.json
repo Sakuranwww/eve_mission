@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2xxenwele5",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 37,
+  "onClick": "{{ navigateTo(\"RegisterPage\", {}, \"SAME_WINDOW\") }}",
+  "originalBottomRow": 48,
+  "originalTopRow": 44,
+  "parentColumnSpace": 13,
+  "parentId": "baadvau62x",
+  "parentRowSpace": 10,
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "text": "注册\n",
+  "topRow": 44,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "56l8x84476",
+  "widgetName": "to_register_btn"
+}

@@ -7,7 +7,11 @@
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "tooltip"
+    }
+  ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
@@ -42,14 +46,14 @@
   },
   "onClick": "{{ CopyHandler.copyTaskInfo(Guristas_Agent.text) }}\n",
   "parentColumnSpace": 11.921875,
-  "parentId": "3nrqcqe9b1",
+  "parentId": "gj8i1ialrn",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 30,
+  "rightColumn": 31,
   "searchTags": [
     "click",
     "submit"
@@ -59,9 +63,10 @@
   ],
   "text": "古斯塔斯代理人",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
+  "tooltip": "{{click_to_copyCopy.text}}",
   "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "3b2xektkye",
+  "widgetId": "jwsrbll2ha",
   "widgetName": "Guristas_Agent"
 }

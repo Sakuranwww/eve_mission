@@ -42,14 +42,14 @@
   },
   "onClick": "{{ CopyHandler.copyTaskInfo(Drone_Infested.text) }}\n",
   "parentColumnSpace": 11.921875,
-  "parentId": "s8vcb15akj",
+  "parentId": "7t3huo7sla",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 18,
+  "rightColumn": 20,
   "searchTags": [
     "click",
     "submit"
@@ -62,6 +62,6 @@
   "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "owwo7hxoj7",
+  "widgetId": "pbq46dn4v5",
   "widgetName": "Drone_Infested"
 }

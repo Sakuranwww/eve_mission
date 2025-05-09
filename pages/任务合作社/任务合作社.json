@@ -1,7 +1,6 @@
 {
-  "gitSyncId": "681b61211413e43ed3535f6d_ce1acc71-def1-47fa-84e5-76fe60007932",
+  "gitSyncId": "681b61211413e43ed3535f6d_cbb01d4b-88ec-4522-93b2-c6d2073583f5",
   "unpublishedPage": {
-    "customSlug": "",
     "isHidden": false,
     "layouts": [
       {
@@ -13,12 +12,12 @@
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 600,
+          "minHeight": 690,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 58,
+          "snapRows": 67,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,

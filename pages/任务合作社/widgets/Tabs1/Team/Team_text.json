@@ -45,7 +45,7 @@
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
-  "parentId": "7t7uohelsq",
+  "parentId": "e6lx71ycve",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -68,6 +68,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "blqsitaxwr",
+  "widgetId": "vpzdrlkq5f",
   "widgetName": "Team_text"
 }

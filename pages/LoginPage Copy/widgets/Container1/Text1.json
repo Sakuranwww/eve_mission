@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 32,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -12,30 +12,27 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
-  "fontStyle": "BOLD",
+  "fontSize": "1.25rem",
+  "fontStyle": "",
   "hideCard": false,
   "iconSVG": "/static/media/icon.301748e14b0306a7b94ece2d9e2c11cc.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "nfn80gnetx",
-  "leftColumn": 0,
+  "key": "ov8t5wlcrx",
+  "leftColumn": 40,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 12,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 8,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -44,15 +41,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 4,
-  "originalTopRow": 0,
+  "originalBottomRow": 32,
+  "originalTopRow": 28,
   "overflow": "NONE",
-  "parentColumnSpace": 12.234375,
-  "parentId": "xm13q2s7if",
+  "parentColumnSpace": 5.42236328125,
+  "parentId": "baadvau62x",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 4,
+  "rightColumn": 52,
   "searchTags": [
     "typography",
     "paragraph",
@@ -63,14 +60,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{ \"发布人：\" }}",
+  "text": "欢迎使用",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#18181b",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 0,
+  "topRow": 28,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "zwhdjudqq3",
-  "widgetName": "launch_person"
+  "widgetId": "813c27wmsl",
+  "widgetName": "Text1"
 }

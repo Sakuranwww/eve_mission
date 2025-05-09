@@ -48,7 +48,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "diwk5j52ov",
+      "parentId": "wqpkx5cbw2",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,8 +56,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "3nrqcqe9b1",
-      "widgetName": "Canvas4Copy1"
+      "widgetId": "gj8i1ialrn",
+      "widgetName": "Canvas4"
     }
   ],
   "containerStyle": "card",
@@ -98,11 +98,11 @@
   "originalBottomRow": 18,
   "originalTopRow": 8,
   "parentColumnSpace": 12.234375,
-  "parentId": "xm13q2s7if",
+  "parentId": "uagq1ychse",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "searchTags": [
     "div",
     "parent",
@@ -116,6 +116,6 @@
   "topRow": 8,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "diwk5j52ov",
+  "widgetId": "wqpkx5cbw2",
   "widgetName": "Agent"
 }

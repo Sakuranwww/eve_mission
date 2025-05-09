@@ -45,7 +45,7 @@
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
-  "parentId": "bi616a25al",
+  "parentId": "fs7g9vwapw",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -68,6 +68,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "jws7dy53b4",
+  "widgetId": "a83amzk9kq",
   "widgetName": "Speedrun_Missions_te_xtCopy"
 }

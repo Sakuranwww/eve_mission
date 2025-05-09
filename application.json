@@ -27,12 +27,12 @@
   "icon": "frame",
   "pages": [
     {
-      "id": "LoginPage",
+      "id": "任务合作社",
       "isDefault": false
     },
     {
-      "id": "任务合作社",
-      "isDefault": true
+      "id": "LoginPage",
+      "isDefault": false
     },
     {
       "id": "HomePage",
@@ -53,6 +53,10 @@
     {
       "id": "NewTaskPage",
       "isDefault": false
+    },
+    {
+      "id": "LoginPage Copy",
+      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {
