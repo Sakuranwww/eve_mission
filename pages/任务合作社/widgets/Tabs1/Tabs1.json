@@ -286,7 +286,7 @@
       "widgetName": "Canvas7"
     }
   ],
-  "defaultTab": "老板面板",
+  "defaultTab": "任务面板",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -347,14 +347,15 @@
     },
     "tab4ym649c88c": {
       "id": "tab4ym649c88c",
-      "index": 5,
+      "index": 3,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "解析面板",
       "widgetId": "4y25or0x2a"
     },
     "tab6om9z8nkh2": {
       "id": "tab6om9z8nkh2",
-      "index": 4,
+      "index": 5,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "榜单",
@@ -370,7 +371,7 @@
     },
     "tabtlljfqf2fl": {
       "id": "tabtlljfqf2fl",
-      "index": 3,
+      "index": 4,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "打手面板",

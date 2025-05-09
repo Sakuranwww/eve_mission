@@ -67,6 +67,6 @@
     "executeOnLoad": false,
     "name": "insert_tasks",
     "pageId": "任务合作社",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

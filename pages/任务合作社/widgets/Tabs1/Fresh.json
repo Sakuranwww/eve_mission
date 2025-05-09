@@ -47,7 +47,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ query_task_log.run() }}",
+  "onClick": "{{ get_poster_log.run() }}",
   "originalBottomRow": 41,
   "originalTopRow": 37,
   "parentColumnSpace": 12.234375,

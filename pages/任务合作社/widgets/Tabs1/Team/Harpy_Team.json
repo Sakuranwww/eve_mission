@@ -40,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ CopyHandler.copyTaskInfo(Harpy_Team.text) }}\n",
+  "onClick": "{{ B_Copy_Task.copyTaskInfo(Harpy_Team.text) }}\n",
   "parentColumnSpace": 11.921875,
   "parentId": "e6lx71ycve",
   "parentRowSpace": 10,

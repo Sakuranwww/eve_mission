@@ -40,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ CopyHandler.copyTaskInfo(Serpentis_Base.text) }}\n",
+  "onClick": "{{ B_Copy_Task.copyTaskInfo(Serpentis_Base.text) }}\n",
   "originalBottomRow": 8,
   "originalTopRow": 4,
   "parentColumnSpace": 11.921875,

@@ -40,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ CopyHandler.copyTaskInfo(Stop_the_Thief.text) }}\n",
+  "onClick": "{{ B_Copy_Task.copyTaskInfo(Stop_the_Thief.text) }}\n",
   "parentColumnSpace": 11.921875,
   "parentId": "7t3huo7sla",
   "parentRowSpace": 10,

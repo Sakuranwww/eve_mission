@@ -44,7 +44,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ ParserJS.parseTaskLines() }}",
+  "onClick": "{{ D_Parse.parseTaskLines() }}",
   "originalBottomRow": 31,
   "originalTopRow": 27,
   "parentColumnSpace": 34.8125,
