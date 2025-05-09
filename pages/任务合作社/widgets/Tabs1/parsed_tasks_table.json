@@ -337,7 +337,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"posted_at\"])) :  currentRow[\"posted_at\"] })()}}",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( moment(currentRow.posted_at).format(\"YYYY-MM-DD HH:mm:ss\") )) :  moment(currentRow.posted_at).format(\"YYYY-MM-DD HH:mm:ss\")  })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
