@@ -1,9 +1,9 @@
 {
   "gitSyncId": "681b61211413e43ed3535f6d_7489396f-5fd7-4ebe-91f8-53c490a3d918",
-  "id": "首页_LoginCheck",
+  "id": "登录页_LoginCheck",
   "unpublishedCollection": {
     "name": "LoginCheck",
-    "pageId": "首页",
+    "pageId": "登录页",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": []

@@ -30,12 +30,16 @@
   "icon": "bar-graph",
   "pages": [
     {
-      "id": "首页",
+      "id": "登录页",
+      "isDefault": true
+    },
+    {
+      "id": "HomePage",
       "isDefault": false
     },
     {
       "id": "任务合作社",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "摄魂小组",
@@ -51,10 +55,6 @@
     },
     {
       "id": "快递",
-      "isDefault": false
-    },
-    {
-      "id": "HomePage",
       "isDefault": false
     },
     {
