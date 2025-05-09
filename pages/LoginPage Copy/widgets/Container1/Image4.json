@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 32,
+  "bottomRow": 38,
   "boxShadow": "none",
   "defaultImage": "https://images.evetech.net/corporations/98799349/logo?size=128",
   "dynamicBindingPathList": [
@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "bbg4gxedxo",
-  "leftColumn": 37,
+  "leftColumn": 38,
   "maxZoomLevel": 1,
   "mobileBottomRow": 24,
   "mobileLeftColumn": 36,
@@ -30,8 +30,8 @@
   "parentId": "baadvau62x",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 40,
-  "topRow": 28,
+  "rightColumn": 41,
+  "topRow": 34,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "8lntlymbcb",
