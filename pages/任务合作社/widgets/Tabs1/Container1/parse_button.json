@@ -1,16 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 25,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#3b82f6",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -33,12 +30,12 @@
   "isLoading": false,
   "isVisible": true,
   "key": "ci6cvfm8y8",
-  "leftColumn": 5,
+  "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 20,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 16,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 32,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -47,18 +44,18 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ storeValue(\"activeTab\", \"解析面板\") }}",
-  "originalBottomRow": 41,
-  "originalTopRow": 37,
-  "parentColumnSpace": 12.234375,
-  "parentId": "pt9c52gb41",
+  "onClick": "{{ ParserJS.parseTaskLines() }}",
+  "originalBottomRow": 31,
+  "originalTopRow": 27,
+  "parentColumnSpace": 34.8125,
+  "parentId": "icvfj6dqlj",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 10,
+  "rightColumn": 5,
   "searchTags": [
     "click",
     "submit"
@@ -66,11 +63,11 @@
   "tags": [
     "Buttons"
   ],
-  "text": "录入",
+  "text": "解析",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 8,
+  "topRow": 21,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "q7hxqkx40e",
-  "widgetName": "Button5"
+  "widgetId": "uylurz2ybp",
+  "widgetName": "parse_button"
 }

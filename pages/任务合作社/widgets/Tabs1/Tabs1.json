@@ -234,16 +234,74 @@
       "version": 1,
       "widgetId": "hh59ae5fmo",
       "widgetName": "Canvas6"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 1450,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicPropertyPathList": [
+        {
+          "key": "isVisible"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": "true",
+      "key": "srjl304p3a",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1490,
+      "minWidth": 450,
+      "mobileBottomRow": 1491,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1003,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "jcvjuvkdjs",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1003,
+      "tabId": "tab4ym649c88c",
+      "tabName": "解析面板",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "4y25or0x2a",
+      "widgetName": "Canvas7"
     }
   ],
-  "defaultTab": "做点工具",
+  "defaultTab": "{{ appsmith.store.activeTab || \"老板面板\" }}\n",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "defaultTab"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
@@ -258,6 +316,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
+  "onTabSelected": "",
   "parentColumnSpace": 15.671875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -284,6 +343,13 @@
       "label": "任务面板",
       "positioning": "vertical",
       "widgetId": "6w47g4p3mx"
+    },
+    "tab4ym649c88c": {
+      "id": "tab4ym649c88c",
+      "index": 5,
+      "isVisible": true,
+      "label": "解析面板",
+      "widgetId": "4y25or0x2a"
     },
     "tab6om9z8nkh2": {
       "id": "tab6om9z8nkh2",
