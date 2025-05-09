@@ -31,7 +31,7 @@
   "pages": [
     {
       "id": "登录页",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "首页",
@@ -39,7 +39,7 @@
     },
     {
       "id": "任务合作社",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "摄魂小组",

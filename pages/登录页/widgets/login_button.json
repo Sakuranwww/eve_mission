@@ -30,7 +30,7 @@
   "key": "xmatypbkya",
   "labelTextSize": "0.875rem",
   "leftColumn": 46,
-  "onClick": "{{ \n  login_query.run(() => {\n    if (login_query.data.length > 0) {\n      storeValue('username', username_input.text); \n      storeValue('role', login_query.data[0].role);  // ✅ 加这一行\n      navigateTo(\"HomePage\", {}, \"SAME_WINDOW\");\n    } else {\n      showAlert('用户名或密码错误', 'error');\n    }\n  }, (err) => {\n    showAlert('查询失败，请检查连接', 'error');\n  })\n}}",
+  "onClick": "{{ \n  login_query.run(() => {\n    if (login_query.data.length > 0) {\n      storeValue('username', username_input.text); \n      storeValue('role', login_query.data[0].role);  // ✅ 加这一行\n      navigateTo(\"首页\", {}, \"SAME_WINDOW\");\n    } else {\n      showAlert('用户名或密码错误', 'error');\n    }\n  }, (err) => {\n    showAlert('查询失败，请检查连接', 'error');\n  })\n}}",
   "originalBottomRow": 53,
   "originalTopRow": 49,
   "parentColumnSpace": 13,
