@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 79,
+  "bottomRow": 74,
   "boxShadow": "none",
-  "buttonColor": "#03b365",
+  "buttonColor": "#b3e19d",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
@@ -21,6 +21,7 @@
       "key": "onClick"
     }
   ],
+  "iconAlign": "left",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -34,8 +35,8 @@
   "mobileTopRow": 74,
   "needsErrorInfo": false,
   "onClick": "{{ TaskCreateAction.createTasks() }}",
-  "originalBottomRow": 78,
-  "originalTopRow": 74,
+  "originalBottomRow": 74,
+  "originalTopRow": 70,
   "parentColumnSpace": 22.109375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -46,7 +47,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 5,
   "text": "新建",
-  "topRow": 75,
+  "topRow": 70,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "o2azf01zc5",
