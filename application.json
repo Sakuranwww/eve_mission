@@ -9,7 +9,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -24,7 +24,7 @@
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "file",
+  "icon": "frame",
   "pages": [
     {
       "id": "LoginPage",
@@ -64,7 +64,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
