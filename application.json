@@ -20,22 +20,26 @@
   "applicationVersion": 2,
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": false,
+    "showNavigationBar": true,
     "width": "1024px"
   },
   "evaluationVersion": 2,
   "icon": "frame",
   "pages": [
     {
+      "id": "LoginPage Copy",
+      "isDefault": true
+    },
+    {
       "id": "任务合作社",
       "isDefault": false
     },
     {
-      "id": "LoginPage",
+      "id": "HomePage",
       "isDefault": false
     },
     {
-      "id": "HomePage",
+      "id": "LoginPage",
       "isDefault": false
     },
     {
@@ -53,10 +57,6 @@
     {
       "id": "NewTaskPage",
       "isDefault": false
-    },
-    {
-      "id": "LoginPage Copy",
-      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {
