@@ -17,10 +17,10 @@
       "sizing": 1.0
     }
   },
-  "applicationVersion": 1,
+  "applicationVersion": 2,
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": true,
+    "showNavigationBar": false,
     "width": "1024px"
   },
   "evaluationVersion": 2,
