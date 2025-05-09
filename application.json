@@ -35,11 +35,11 @@
     },
     {
       "id": "首页",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "任务合作社",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "摄魂小组",
