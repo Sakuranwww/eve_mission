@@ -31,11 +31,11 @@
   "pages": [
     {
       "id": "首页",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "任务合作社",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "摄魂小组",
