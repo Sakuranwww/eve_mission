@@ -23,19 +23,15 @@
   "applicationVersion": 2,
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": false,
+    "showNavigationBar": true,
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "frame",
+  "icon": "bar-graph",
   "pages": [
     {
-      "id": "LoginPage Copy",
-      "isDefault": true
-    },
-    {
       "id": "HomePage 2",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "任务合作社",
