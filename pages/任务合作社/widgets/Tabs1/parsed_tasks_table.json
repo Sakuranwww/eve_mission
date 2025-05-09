@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 66,
+  "bottomRow": 134,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -214,8 +214,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 65,
-  "originalTopRow": 27,
+  "originalBottomRow": 134,
+  "originalTopRow": 28,
   "parentColumnSpace": 12.234375,
   "parentId": "4y25or0x2a",
   "parentRowSpace": 10,
