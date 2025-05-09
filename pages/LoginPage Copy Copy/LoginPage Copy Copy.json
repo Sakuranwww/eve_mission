@@ -1,12 +1,13 @@
 {
-  "gitSyncId": "681b61211413e43ed3535f6d_bd2d8d9a-8a35-4090-884b-0fd8f24e8830",
+  "gitSyncId": "681b61211413e43ed3535f6d_26bfbebb-35cd-4aaa-9653-f715b1743a5c",
   "unpublishedPage": {
-    "isHidden": false,
+    "customSlug": "",
+    "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 800,
+          "bottomRow": 1100,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -17,7 +18,7 @@
           "parentRowSpace": 1,
           "rightColumn": 844,
           "snapColumns": 64,
-          "snapRows": 74,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "HomePage Copy",
-    "slug": "homepage-copy"
+    "name": "LoginPage Copy Copy",
+    "slug": "loginpage-copy-copy"
   }
 }

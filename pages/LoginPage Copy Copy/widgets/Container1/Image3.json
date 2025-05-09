@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "bottomRow": 99,
   "boxShadow": "none",
-  "defaultImage": "https://images.evetech.net/corporations/98799349/logo?size=128",
+  "defaultImage": "https://github.com/eod2g/appsmith/blob/main/bg.png?raw=true",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -18,22 +18,22 @@
   "isLoading": false,
   "isVisible": true,
   "key": "bbg4gxedxo",
-  "leftColumn": 42,
+  "leftColumn": 0,
   "maxZoomLevel": 1,
-  "mobileBottomRow": 24,
-  "mobileLeftColumn": 36,
-  "mobileRightColumn": 48,
-  "mobileTopRow": 12,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "objectFit": "contain",
-  "parentColumnSpace": 18.98828125,
+  "objectFit": "cover",
+  "parentColumnSpace": 19.3046875,
   "parentId": "baadvau62x",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 44,
-  "topRow": 31,
+  "rightColumn": 35,
+  "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "8lntlymbcb",
-  "widgetName": "Image4"
+  "widgetId": "evnvk1qpzp",
+  "widgetName": "Image3"
 }

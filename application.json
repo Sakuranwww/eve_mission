@@ -23,7 +23,7 @@
   "applicationVersion": 2,
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": true,
+    "showNavigationBar": false,
     "width": "1024px"
   },
   "evaluationVersion": 2,
@@ -34,7 +34,7 @@
       "isDefault": true
     },
     {
-      "id": "HomePage Copy",
+      "id": "HomePage 2",
       "isDefault": false
     },
     {
@@ -63,6 +63,10 @@
     },
     {
       "id": "NewTaskPage",
+      "isDefault": false
+    },
+    {
+      "id": "LoginPage Copy Copy",
       "isDefault": false
     }
   ],

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "bottomRow": 41,
   "boxShadow": "none",
   "defaultImage": "https://images.evetech.net/corporations/98799349/logo?size=128",
   "dynamicBindingPathList": [
@@ -31,7 +31,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 44,
-  "topRow": 31,
+  "topRow": 37,
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "8lntlymbcb",
