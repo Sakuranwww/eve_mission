@@ -20,7 +20,7 @@
   "applicationVersion": 1,
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": false,
+    "showNavigationBar": true,
     "width": "1024px"
   },
   "evaluationVersion": 2,
