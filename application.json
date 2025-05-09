@@ -31,11 +31,11 @@
   "pages": [
     {
       "id": "登录页",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "首页",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "任务合作社",
