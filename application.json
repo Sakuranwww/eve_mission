@@ -30,11 +30,27 @@
   "icon": "bar-graph",
   "pages": [
     {
-      "id": "HomePage 2",
+      "id": "首页",
       "isDefault": true
     },
     {
       "id": "任务合作社",
+      "isDefault": false
+    },
+    {
+      "id": "摄魂小组",
+      "isDefault": false
+    },
+    {
+      "id": "DKP",
+      "isDefault": false
+    },
+    {
+      "id": "补损",
+      "isDefault": false
+    },
+    {
+      "id": "快递",
       "isDefault": false
     },
     {

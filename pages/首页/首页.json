@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "681b61211413e43ed3535f6d_cbb01d4b-88ec-4522-93b2-c6d2073583f5",
+  "gitSyncId": "681b61211413e43ed3535f6d_bd2d8d9a-8a35-4090-884b-0fd8f24e8830",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 970,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 690,
+          "minHeight": 750,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 844,
           "snapColumns": 64,
-          "snapRows": 67,
+          "snapRows": 74,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "任务合作社",
+    "name": "首页",
     "slug": ""
   }
 }

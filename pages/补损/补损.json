@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "681b61211413e43ed3535f6d_bd2d8d9a-8a35-4090-884b-0fd8f24e8830",
+  "gitSyncId": "681b61211413e43ed3535f6d_4b43a4b6-fd05-4dff-93b5-64d3de32adbc",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 800,
+          "bottomRow": 840,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 750,
+          "minHeight": 850,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 844,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 74,
+          "snapRows": 83,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "HomePage 2",
-    "slug": "homepage-2"
+    "name": "补损",
+    "slug": ""
   }
 }

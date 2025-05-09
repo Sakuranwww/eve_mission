@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "681b61211413e43ed3535f6d_cbb01d4b-88ec-4522-93b2-c6d2073583f5",
+  "gitSyncId": "681b61211413e43ed3535f6d_d4d827ca-e3f4-444a-a7a1-5746e4d7825c",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 970,
+          "bottomRow": 840,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 690,
+          "minHeight": 850,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 67,
+          "snapRows": 83,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "任务合作社",
+    "name": "快递",
     "slug": ""
   }
 }
