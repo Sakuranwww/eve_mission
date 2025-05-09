@@ -41,8 +41,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{ CopyHandler.copyTaskInfo(Serpentis_Base.text) }}\n",
-  "originalBottomRow": 9,
-  "originalTopRow": 5,
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
   "parentColumnSpace": 11.921875,
   "parentId": "fs7g9vwapw",
   "parentRowSpace": 10,

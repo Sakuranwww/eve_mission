@@ -12,12 +12,15 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "/static/media/icon.301748e14b0306a7b94ece2d9e2c11cc.svg",
@@ -29,10 +32,10 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 22,
+  "mobileBottomRow": 12,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
-  "mobileTopRow": 18,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -41,15 +44,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 4,
+  "originalBottomRow": 5,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
-  "parentId": "fs7g9vwapw",
+  "parentId": "6w47g4p3mx",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 4,
   "searchTags": [
     "typography",
     "paragraph",
@@ -60,7 +63,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "燃烧-基地:",
+  "text": "{{ \"发布人：\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
@@ -68,6 +71,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "a83amzk9kq",
-  "widgetName": "Speedrun_Missions_te_xtCopy"
+  "widgetId": "rtj4f6ptfp",
+  "widgetName": "launch_personCopyCopy"
 }

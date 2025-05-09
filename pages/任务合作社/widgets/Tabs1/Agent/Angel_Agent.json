@@ -41,6 +41,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{ CopyHandler.copyTaskInfo(Angel_Agent.text) }}\n",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
   "parentColumnSpace": 11.921875,
   "parentId": "gj8i1ialrn",
   "parentRowSpace": 10,

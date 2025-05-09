@@ -41,6 +41,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{ CopyHandler.copyTaskInfo(Drone_Infested.text) }}\n",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
   "parentColumnSpace": 11.921875,
   "parentId": "7t3huo7sla",
   "parentRowSpace": 10,

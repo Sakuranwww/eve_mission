@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#71717a",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "46gh2w00ie",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 59,
+  "onClick": "{{ \n  storeValue(\"username\", \"\"); \n  storeValue(\"role\", \"\"); \n  storeValue(\"register_status\", \"\"); \n  storeValue(\"login_error\", \"\"); \n  navigateTo(\"HomePage\", {}, \"SAME_WINDOW\"); \n}}",
+  "originalBottomRow": 68,
+  "originalTopRow": 64,
+  "parentColumnSpace": 13,
+  "parentId": "6w47g4p3mx",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "退出",
+  "topRow": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gfyo0xtadk",
+  "widgetName": "signout"
+}
