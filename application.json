@@ -2,14 +2,14 @@
   "appIsExample": false,
   "applicationDetail": {
     "navigationSetting": {
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoOnly",
-      "navStyle": "stacked",
-      "orientation": "top",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
-      "showNavbar": false,
-      "showSignIn": false
+      "showNavbar": true,
+      "showSignIn": true
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -24,6 +24,7 @@
     "width": "1024px"
   },
   "evaluationVersion": 2,
+  "icon": "file",
   "pages": [
     {
       "id": "LoginPage",
@@ -48,18 +49,22 @@
     {
       "id": "NewTaskPage",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
     "navigationSetting": {
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoOnly",
-      "navStyle": "stacked",
-      "orientation": "top",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
-      "showNavbar": false,
-      "showSignIn": false
+      "showNavbar": true,
+      "showSignIn": true
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
