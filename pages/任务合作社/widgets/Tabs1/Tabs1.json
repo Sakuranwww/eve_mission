@@ -286,7 +286,7 @@
       "widgetName": "Canvas7"
     }
   ],
-  "defaultTab": "{{ appsmith.store.activeTab || \"老板面板\" }}\n",
+  "defaultTab": "{{ appsmith.store.activeTab || \"老板面板\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
