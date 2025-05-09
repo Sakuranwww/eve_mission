@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 150,
+  "bottomRow": 147,
   "boxShadow": "none",
   "defaultImage": "https://github.com/eod2g/appsmith/blob/main/bg.png?raw=true",
   "dynamicBindingPathList": [
