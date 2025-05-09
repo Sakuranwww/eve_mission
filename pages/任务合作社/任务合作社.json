@@ -1,12 +1,13 @@
 {
   "gitSyncId": "681b61211413e43ed3535f6d_ce1acc71-def1-47fa-84e5-76fe60007932",
   "unpublishedPage": {
+    "customSlug": "",
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 540,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "任务合作社",
+    "slug": ""
   }
 }

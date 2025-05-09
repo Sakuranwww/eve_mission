@@ -4,12 +4,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 6,
+  "bottomRow": 28,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 60,
+      "bottomRow": 100,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -29,7 +29,7 @@
       "isDeprecated": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "xlh3yar32w",
+      "key": "w5ekyxto60",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -48,7 +48,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "evyfd506l7",
+      "parentId": "4se8ox9d2u",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,8 +56,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ia7lspmzjf",
-      "widgetName": "Canvas1Copy"
+      "widgetId": "7t7uohelsq",
+      "widgetName": "Canvas4Copy"
     }
   ],
   "containerStyle": "card",
@@ -70,8 +70,7 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
-  "dynamicTriggerPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
   "iconSVG": "/static/media/icon.b4f5f9eb27fc2bb537b53187836aea6c.svg",
@@ -79,15 +78,15 @@
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "dss1ryyq6n",
+  "key": "dmyrb3amnf",
   "leftColumn": 0,
-  "maxDynamicHeight": 6,
-  "minDynamicHeight": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
   "minWidth": 450,
-  "mobileBottomRow": 21,
-  "mobileLeftColumn": 6,
-  "mobileRightColumn": 30,
-  "mobileTopRow": 11,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 23,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -96,14 +95,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 6,
-  "originalTopRow": 0,
+  "originalBottomRow": 28,
+  "originalTopRow": 18,
   "parentColumnSpace": 12.234375,
-  "parentId": "0",
+  "parentId": "xm13q2s7if",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "searchTags": [
     "div",
     "parent",
@@ -114,9 +113,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 0,
+  "topRow": 18,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "evyfd506l7",
-  "widgetName": "Navigation_Bar"
+  "widgetId": "4se8ox9d2u",
+  "widgetName": "Team"
 }

@@ -1,12 +1,19 @@
 {
   "animateLoading": true,
-  "borderRadius": "0.375rem",
-  "bottomRow": 18,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
   "boxShadow": "none",
-  "buttonColor": "#03B365",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
   "buttonVariant": "PRIMARY",
   "displayName": "Button",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
@@ -36,7 +43,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 64,
   "text": "注册\n",
-  "topRow": 14,
+  "topRow": 13,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "56l8x84476",

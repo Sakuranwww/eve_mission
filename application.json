@@ -9,7 +9,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -31,8 +31,12 @@
       "isDefault": false
     },
     {
-      "id": "HomePage",
+      "id": "任务合作社",
       "isDefault": true
+    },
+    {
+      "id": "HomePage",
+      "isDefault": false
     },
     {
       "id": "RegisterPage",
@@ -49,10 +53,6 @@
     {
       "id": "NewTaskPage",
       "isDefault": false
-    },
-    {
-      "id": "Page1",
-      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
@@ -64,7 +64,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",

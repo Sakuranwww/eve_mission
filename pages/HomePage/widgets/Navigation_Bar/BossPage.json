@@ -36,7 +36,7 @@
   "isLoading": false,
   "isVisible": "{{ !!appsmith.store.username }}",
   "key": "bgqtj1686t",
-  "leftColumn": 8,
+  "leftColumn": 10,
   "minWidth": 120,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
@@ -59,7 +59,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 12,
+  "rightColumn": 15,
   "searchTags": [
     "click",
     "submit"
