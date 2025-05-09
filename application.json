@@ -20,11 +20,11 @@
   "applicationVersion": 1,
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": true,
+    "showNavigationBar": false,
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "globe",
+  "icon": "frame",
   "pages": [
     {
       "id": "LoginPage",
