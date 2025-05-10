@@ -8,7 +8,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 350,
+      "bottomRow": 530,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -29,7 +29,7 @@
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 352,
+      "minHeight": 532,
       "minWidth": 450,
       "mobileBottomRow": 240,
       "mobileLeftColumn": 0,
@@ -58,7 +58,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "height": 352,
+  "height": 532,
   "isCanvas": true,
   "isLoading": false,
   "key": "cpv29pdnhq",
@@ -81,5 +81,5 @@
   "version": 2,
   "widgetId": "lpb9i5a146",
   "widgetName": "Register_Modal",
-  "width": 588
+  "width": 618
 }
