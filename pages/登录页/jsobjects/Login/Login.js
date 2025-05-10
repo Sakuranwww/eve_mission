@@ -10,21 +10,27 @@ export default {
       // 执行登录检查查询
       await login_check.run();
 
-      // 检查查询结果	
+      // 检查查询结果
       if (login_check.data.length > 0) {
-        // 先清空现有存储信息
-        storeValue('username', "");
-        storeValue('role', "");
-        storeValue('main_character', "");
+        const user = login_check.data[0];
+
+        // 先清空现有存储信息并存储新的用户信息
+        await Promise.all([
+          storeValue('username', ""),
+          storeValue('role', ""),
+          storeValue('main_character', ""),
+        ]);
 
         // 存储新的用户信息
-        const user = login_check.data[0];
-        storeValue('username', user.username);
-        storeValue('role', user.role);
-        storeValue('main_character', user.main_character);
+        await Promise.all([
+          storeValue('username', user.username),
+          storeValue('role', user.role),
+          storeValue('main_character', user.main_character)
+        ]);
 
         // 跳转到任务合作社页面
         navigateTo("任务合作社", {}, "SAME_WINDOW");
+
       } else {
         showAlert('用户名或密码错误', 'error');
       }
