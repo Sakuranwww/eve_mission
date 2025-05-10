@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 139,
+  "boxShadow": "none",
+  "defaultImage": "https://github.com/eod2g/appsmith/blob/main/bg.png?raw=true",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "objectFit"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "bbg4gxedxo",
+  "leftColumn": 0,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 19.3046875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 44,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "0x0wdj9abc",
+  "widgetName": "Backgroud"
+}

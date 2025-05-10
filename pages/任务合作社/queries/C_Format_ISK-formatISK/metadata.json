@@ -26,7 +26,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "C_Format_ISK.formatISK",
     "name": "formatISK",
     "pageId": "任务合作社",
