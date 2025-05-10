@@ -2,7 +2,7 @@ export default {
   /**
    * 用户登录处理逻辑
    * - 检查用户名和密码是否匹配数据库中的数据
-   * - 如果匹配成功，存储用户信息并跳转页面
+   * - 如果匹配成功，先清空现有用户数据，再存储新的用户信息并跳转页面
    * - 如果匹配失败，显示错误提示
    */
   handleLogin: async function() {
@@ -12,7 +12,12 @@ export default {
 
       // 检查查询结果	
       if (login_check.data.length > 0) {
-        // 存储用户信息
+        // 先清空现有存储信息
+        storeValue('username', "");
+        storeValue('role', "");
+        storeValue('main_character', "");
+
+        // 存储新的用户信息
         const user = login_check.data[0];
         storeValue('username', user.username);
         storeValue('role', user.role);
