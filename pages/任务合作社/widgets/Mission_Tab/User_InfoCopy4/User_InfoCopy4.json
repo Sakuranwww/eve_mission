@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "koexroyrcc",
+      "parentId": "rgq8hbp1ll",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "7qpdun53y1",
-      "widgetName": "Canvas8Copy2"
+      "widgetId": "zo7kplrw9z",
+      "widgetName": "Canvas8Copy4"
     }
   ],
   "containerStyle": "card",
@@ -78,7 +78,7 @@
   "originalBottomRow": 54,
   "originalTopRow": 48,
   "parentColumnSpace": 13.09375,
-  "parentId": "icvfj6dqlj",
+  "parentId": "pt9c52gb41",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -87,6 +87,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "koexroyrcc",
-  "widgetName": "User_InfoCopy2"
+  "widgetId": "rgq8hbp1ll",
+  "widgetName": "User_InfoCopy4"
 }

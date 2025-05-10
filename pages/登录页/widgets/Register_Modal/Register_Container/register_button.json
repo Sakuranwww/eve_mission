@@ -1,17 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 20,
+  "bottomRow": 25,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#15803d",
   "buttonVariant": "PRIMARY",
   "displayName": "Button",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -34,8 +31,8 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
   "onClick": "{{ C_Register.handleRegister() }}",
-  "originalBottomRow": 26,
-  "originalTopRow": 22,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "parentColumnSpace": 13,
   "parentId": "rr0qo8uypf",
   "parentRowSpace": 10,
@@ -43,7 +40,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 31,
   "text": "注册\n",
-  "topRow": 16,
+  "topRow": 21,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8nw55b1v46",

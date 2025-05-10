@@ -53,7 +53,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 31,
+  "rightColumn": 30,
   "searchTags": [
     "click",
     "submit"

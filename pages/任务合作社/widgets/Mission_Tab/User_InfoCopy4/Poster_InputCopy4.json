@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 5,
   "boxShadow": "none",
-  "defaultText": "{{(appsmith.store.main_character || \"未登录\") }}",
+  "defaultText": "{{(appsmith.store.username || \"未登录\") }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -18,6 +18,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "TEXT",
@@ -32,7 +33,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 35,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,20 +42,20 @@
   "mobileRightColumn": 49,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 5,
+  "originalBottomRow": 4,
   "originalTopRow": 0,
   "parentColumnSpace": 19.9375,
-  "parentId": "7qpdun53y1",
+  "parentId": "zo7kplrw9z",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 44,
+  "rightColumn": 13,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "topRow": 0,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "bjufgzmhzm",
-  "widgetName": "Main_Character_InputCopy2"
+  "widgetId": "d9kdbgc6eb",
+  "widgetName": "Poster_InputCopy4"
 }

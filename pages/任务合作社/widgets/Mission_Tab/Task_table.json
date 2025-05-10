@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 149,
+  "bottomRow": 91,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -116,13 +116,13 @@
       "key": "primaryColumns.status.cellBackground"
     },
     {
-      "key": "primaryColumns.status.textColor"
-    },
-    {
       "key": "primaryColumns.posted_at.computedValue"
     },
     {
       "key": "primaryColumns.postcharacter.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.textColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -617,7 +617,7 @@
   "searchKey": "",
   "tableData": "{{ \n  get_poster_log.data.filter(t => \n    (appsmith.store.filter_pending && t.status === \"待接受\") ||\n    (appsmith.store.filter_accepted && t.status === \"已接受\") ||\n    (appsmith.store.filter_completed && t.status === \"已完成\") ||\n    (appsmith.store.filter_settled && t.status === \"已结算\") ||\n    (appsmith.store.filter_returned && t.status === \"返工\")\n  )\n}}",
   "textSize": "0.875rem",
-  "topRow": 21,
+  "topRow": 22,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

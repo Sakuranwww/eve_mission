@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "nfn80gnetx",
-  "leftColumn": 28,
+  "leftColumn": 13,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -52,7 +52,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 35,
+  "rightColumn": 17,
   "searchTags": [
     "typography",
     "paragraph",
@@ -64,7 +64,7 @@
     "Content"
   ],
   "text": "{{ \"主要角色：\" }}",
-  "textAlign": "LEFT",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
   "topRow": 0,

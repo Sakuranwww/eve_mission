@@ -1,17 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 20,
+  "bottomRow": 25,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "displayName": "Button",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -30,8 +27,8 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 31,
   "onClick": "{{closeModal(Register_Modal.name);}}",
-  "originalBottomRow": 26,
-  "originalTopRow": 22,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "parentColumnSpace": 13,
   "parentId": "rr0qo8uypf",
   "parentRowSpace": 10,
@@ -39,7 +36,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 64,
   "text": "返回登录页\n",
-  "topRow": 16,
+  "topRow": 21,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "kych1k3odd",

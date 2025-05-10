@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "nfn80gnetx",
-  "leftColumn": 28,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -44,15 +44,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 5,
+  "originalBottomRow": 4,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
-  "parentId": "7qpdun53y1",
+  "parentId": "xitwthbchp",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 35,
+  "rightColumn": 3,
   "searchTags": [
     "typography",
     "paragraph",
@@ -63,7 +63,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{ \"主要角色：\" }}",
+  "text": "{{ \"用户：\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
@@ -71,6 +71,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "iyxn4te25r",
-  "widgetName": "Main_CharacterCopy2"
+  "widgetId": "9djihlqoa6",
+  "widgetName": "PosterCopy5"
 }

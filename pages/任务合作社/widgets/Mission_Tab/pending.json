@@ -1,10 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 22,
   "boxShadow": "none",
-  "buttonColor": "{{ appsmith.store.filter_pending ? \"#2b6cb0\" : \"#bee3f8\" }}",
-  "buttonVariant": "PRIMARY",
+  "buttonColor": "{{ appsmith.store.filter_pending ? \"#bee3f8\":\"FFFFFF\"}}",
+  "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -47,9 +47,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 5,
+  "rightColumn": 6,
   "text": "待接受",
-  "topRow": 17,
+  "topRow": 18,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "wfvfctvfb4",
