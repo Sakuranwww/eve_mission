@@ -34,10 +34,6 @@
       "isDefault": true
     },
     {
-      "id": "首页",
-      "isDefault": false
-    },
-    {
       "id": "任务合作社",
       "isDefault": false
     },
@@ -47,26 +43,6 @@
     },
     {
       "id": "快递",
-      "isDefault": false
-    },
-    {
-      "id": "HomePage",
-      "isDefault": false
-    },
-    {
-      "id": "ToolPage",
-      "isDefault": false
-    },
-    {
-      "id": "BossPage",
-      "isDefault": false
-    },
-    {
-      "id": "解析面板",
-      "isDefault": false
-    },
-    {
-      "id": "BossPage Copy",
       "isDefault": false
     }
   ],

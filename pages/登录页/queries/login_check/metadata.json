@@ -20,7 +20,15 @@
           }
         },
         "projection": {
-          "data": []
+          "componentData": [
+            "username",
+            "password",
+            "role",
+            "main_character"
+          ],
+          "data": "",
+          "jsonData": "",
+          "viewType": "json"
         },
         "queryFormat": {
           "data": "ROWS"
