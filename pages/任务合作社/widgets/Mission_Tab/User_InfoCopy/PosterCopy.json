@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 145,
+  "bottomRow": 4,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -15,30 +15,27 @@
     },
     {
       "key": "text"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "/static/media/icon.301748e14b0306a7b94ece2d9e2c11cc.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "38l86eotn9",
+  "key": "nfn80gnetx",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 74,
+  "mobileBottomRow": 12,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
-  "mobileTopRow": 70,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -47,15 +44,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 145,
-  "originalTopRow": 140,
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
-  "parentId": "4y25or0x2a",
+  "parentId": "50ow8bb5id",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 57,
+  "rightColumn": 6,
   "searchTags": [
     "typography",
     "paragraph",
@@ -66,14 +63,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{ \n  (appsmith.store.parsed_tasks || []).filter(row => row[\"能否录入\"] === \"是\").length \n}} 个可创建  \n可创建的任务在新建后将会从列表中移除",
+  "text": "{{ \"用户：\" }}",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 140,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "45tvv2glxa",
-  "widgetName": "Reminder2"
+  "widgetId": "sv6mj2dz4v",
+  "widgetName": "PosterCopy"
 }

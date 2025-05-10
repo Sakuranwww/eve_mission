@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 134,
+  "bottomRow": 140,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -214,8 +214,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 134,
-  "originalTopRow": 28,
+  "originalBottomRow": 140,
+  "originalTopRow": 34,
   "parentColumnSpace": 12.234375,
   "parentId": "4y25or0x2a",
   "parentRowSpace": 10,
@@ -686,7 +686,7 @@
   "textColor": "{{}}",
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 28,
+  "topRow": 34,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

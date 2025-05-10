@@ -63,7 +63,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{ \"发布人：\" }}",
+  "text": "{{ \"用户：\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

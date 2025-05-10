@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "0px",
-  "bottomRow": 21,
+  "bottomRow": 27,
   "boxShadow": "none",
   "defaultText": "",
   "displayName": "Input",
@@ -69,7 +69,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 0,
+  "topRow": 6,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "1i84a98bft",
