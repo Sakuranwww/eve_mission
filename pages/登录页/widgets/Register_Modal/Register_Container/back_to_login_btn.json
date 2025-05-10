@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 20,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
   "buttonVariant": "PRIMARY",
   "displayName": "Button",
   "dynamicBindingPathList": [
@@ -39,7 +39,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 64,
   "text": "返回登录页\n",
-  "topRow": 22,
+  "topRow": 16,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "kych1k3odd",
