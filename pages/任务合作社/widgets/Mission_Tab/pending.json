@@ -4,7 +4,7 @@
   "bottomRow": 22,
   "boxShadow": "none",
   "buttonColor": "{{ appsmith.store.filter_pending ? \"#bee3f8\":\"FFFFFF\"}}",
-  "buttonVariant": "SECONDARY",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {

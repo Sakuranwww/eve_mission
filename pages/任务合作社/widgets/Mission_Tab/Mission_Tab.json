@@ -317,7 +317,7 @@
   "mobileTopRow": 10,
   "needsErrorInfo": false,
   "onTabSelected": "{{}}",
-  "originalBottomRow": 102,
+  "originalBottomRow": 97,
   "originalTopRow": 0,
   "parentColumnSpace": 15.671875,
   "parentId": "0",

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "boxShadow": "none",
   "defaultText": "{{(appsmith.store.username || \"未登录\") }}",
   "dynamicBindingPathList": [
@@ -42,7 +42,7 @@
   "mobileRightColumn": 49,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 4,
+  "originalBottomRow": 5,
   "originalTopRow": 0,
   "parentColumnSpace": 19.9375,
   "parentId": "zo7kplrw9z",

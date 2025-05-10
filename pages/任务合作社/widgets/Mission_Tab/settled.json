@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 22,
   "boxShadow": "none",
-  "buttonColor": "{{ appsmith.store.filter_pending ? \"#bee3f8\":\"FFFFFF\"}}",
+  "buttonColor": "{{ appsmith.store.filter_settled ? \"#bee3f8\":\"FFFFFF\"}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
