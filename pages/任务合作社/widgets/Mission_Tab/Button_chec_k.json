@@ -11,11 +11,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -33,7 +29,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onClick": "",
+  "onClick": "{{C_Summary.calculateSummary();}}",
   "parentColumnSpace": 21.796875,
   "parentId": "pt9c52gb41",
   "parentRowSpace": 10,
@@ -48,5 +44,5 @@
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "xrluqm2dpq",
-  "widgetName": "Button6"
+  "widgetName": "Button_chec_k"
 }

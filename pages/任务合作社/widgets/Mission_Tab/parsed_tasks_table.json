@@ -7,7 +7,7 @@
   "bottomRow": 97,
   "boxShadow": "none",
   "canFreezeColumn": true,
-  "cellBackground": "#ffffff",
+  "cellBackground": "",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -46,7 +46,7 @@
     "task_name",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1746857587240,
+  "columnUpdatedAt": 1746894042657,
   "columnWidthMap": {
     "can_record": 94,
     "constellation": 82,
@@ -58,10 +58,10 @@
     "region": 89.99999999999999,
     "reward_amount": 173,
     "star_system": 92,
-    "status": 68,
+    "status": 66,
     "tag": 124,
-    "xn__mcr205aqsohux": 162,
-    "xn__y5qx0eo9ow17a": 97
+    "xn__mcr205aqsohux": 116,
+    "xn__y5qx0eo9ow17a": 98
   },
   "compactMode": "SHORT",
   "customIsLoading": false,
@@ -95,24 +95,6 @@
       "key": "primaryColumns.status.computedValue"
     },
     {
-      "key": "primaryColumns.EditActions1.textColor"
-    },
-    {
-      "key": "primaryColumns.EditActions1.saveButtonColor"
-    },
-    {
-      "key": "primaryColumns.EditActions1.saveBorderRadius"
-    },
-    {
-      "key": "primaryColumns.EditActions1.discardBorderRadius"
-    },
-    {
-      "key": "primaryColumns.EditActions1.isSaveDisabled"
-    },
-    {
-      "key": "primaryColumns.EditActions1.isDiscardDisabled"
-    },
-    {
       "key": "primaryColumns.status.borderRadius"
     },
     {
@@ -128,48 +110,36 @@
       "key": "primaryColumns.xn__mcr205aqsohux.computedValue"
     },
     {
-      "key": "primaryColumns.xn__y5qx0eo9ow17a.textColor"
-    },
-    {
-      "key": "primaryColumns.xn__mcr205aqsohux.textColor"
-    },
-    {
-      "key": "primaryColumns.tag.textColor"
-    },
-    {
       "key": "primaryColumns.tag.computedValue"
-    },
-    {
-      "key": "primaryColumns.star_system.textColor"
     },
     {
       "key": "primaryColumns.star_system.computedValue"
     },
     {
-      "key": "primaryColumns.constellation.textColor"
-    },
-    {
       "key": "primaryColumns.constellation.computedValue"
     },
     {
-      "key": "primaryColumns.region.textColor"
-    },
-    {
       "key": "primaryColumns.region.computedValue"
-    }
-  ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "tableData"
     },
     {
-      "key": "textColor"
+      "key": "primaryColumns.EditActions1.saveButtonColor"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.discardBorderRadius"
     },
     {
       "key": "primaryColumns.EditActions1.isSaveDisabled"
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
     },
     {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
@@ -179,6 +149,12 @@
     },
     {
       "key": "primaryColumns.status.onClick"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -199,8 +175,8 @@
   "isVisible": true,
   "isVisibleDownload": false,
   "isVisibleFilters": false,
-  "isVisiblePagination": false,
-  "isVisibleSearch": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
   "key": "mc7i04d1hv",
   "label": "Data",
   "leftColumn": 0,
@@ -229,7 +205,6 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "buttonStyle": "rgb(3, 179, 101)",
-      "cellBackground": "#ffffff",
       "columnType": "editActions",
       "computedValue": "",
       "currencyCode": "USD",
@@ -241,8 +216,6 @@
       "discardIconAlign": "left",
       "enableFilter": true,
       "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
       "id": "EditActions1",
       "index": 10,
       "isCellEditable": false,
@@ -263,18 +236,15 @@
       "saveButtonColor": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "saveIconAlign": "left",
       "sticky": "right",
-      "textColor": "{{}}",
-      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
-      "verticalAlignment": "CENTER",
       "width": 150
     },
     "constellation": {
       "alias": "constellation",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"constellation\"]))}}",
       "currencyCode": "USD",
@@ -297,7 +267,7 @@
       "notation": "standard",
       "originalId": "constellation",
       "sticky": "",
-      "textColor": "{{}}",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -308,7 +278,7 @@
       "alias": "postcharacter",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"postcharacter\"])) :  currentRow[\"postcharacter\"] })()}}",
       "currencyCode": "USD",
@@ -342,7 +312,7 @@
       "alias": "posted_at",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( moment(currentRow.posted_at).format(\"YYYY-MM-DD HH:mm:ss\") )) :  moment(currentRow.posted_at).format(\"YYYY-MM-DD HH:mm:ss\")  })()}}",
       "currencyCode": "USD",
@@ -376,7 +346,7 @@
       "alias": "poster",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"poster\"])) :  currentRow[\"poster\"] })()}}",
       "currencyCode": "USD",
@@ -410,7 +380,7 @@
       "alias": "region",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"region\"]))}}",
       "currencyCode": "USD",
@@ -433,7 +403,7 @@
       "notation": "standard",
       "originalId": "region",
       "sticky": "",
-      "textColor": "{{}}",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -444,7 +414,7 @@
       "alias": "reward_amount",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (  \n  currentRow.reward_amount \n    ? currentRow.reward_amount.toLocaleString() + \" ISK (\" + (currentRow.reward_amount / 1000000) + \"M)\"\n    : \"\"\n)) :   \n  currentRow.reward_amount \n    ? currentRow.reward_amount.toLocaleString() + \" ISK (\" + (currentRow.reward_amount / 1000000) + \"M)\"\n    : \"\"\n })()}}",
       "currencyCode": "USD",
@@ -466,7 +436,7 @@
       "label": "酬劳",
       "notation": "standard",
       "originalId": "reward_amount",
-      "sticky": "right",
+      "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -478,7 +448,7 @@
       "alias": "star_system",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"star_system\"]))}}",
       "currencyCode": "USD",
@@ -501,7 +471,7 @@
       "notation": "standard",
       "originalId": "star_system",
       "sticky": "",
-      "textColor": "{{}}",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -516,7 +486,7 @@
       "boxShadow": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
       "buttonColor": "#ef4444",
       "buttonLabel": "删除",
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "button",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"status\"])) :  currentRow[\"status\"] })()}}",
       "currencyCode": "USD",
@@ -552,7 +522,7 @@
       "alias": "tag",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tag\"]))}}",
       "currencyCode": "USD",
@@ -575,7 +545,7 @@
       "notation": "standard",
       "originalId": "tag",
       "sticky": "",
-      "textColor": "{{}}",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -586,7 +556,7 @@
       "alias": "task_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"task_name\"])) :  currentRow[\"task_name\"] })()}}",
       "currencyCode": "USD",
@@ -608,7 +578,7 @@
       "label": "任务名",
       "notation": "standard",
       "originalId": "task_name",
-      "sticky": "right",
+      "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -620,7 +590,7 @@
       "alias": "识别状态",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"识别状态\"])) :  currentRow[\"识别状态\"] })()}}",
       "currencyCode": "USD",
@@ -643,7 +613,7 @@
       "notation": "standard",
       "originalId": "识别状态",
       "sticky": "left",
-      "textColor": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( \n  currentRow[\"识别状态\"] === \"✅ 识别成功\"\n    ? \"green\"\n    : \"red\"\n))}}",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -654,7 +624,7 @@
       "alias": "能否录入",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
+      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"能否录入\"])) :  currentRow[\"能否录入\"] })()}}",
       "currencyCode": "USD",
@@ -677,7 +647,7 @@
       "notation": "standard",
       "originalId": "能否录入",
       "sticky": "left",
-      "textColor": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => (  currentRow[\"能否录入\"] === \"是\" ? \"green\" : \"red\" ))}}",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -695,13 +665,13 @@
     "Suggested",
     "Display"
   ],
-  "textColor": "{{}}",
+  "textColor": "",
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
   "topRow": 34,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
-  "variant": "VARIANT2",
+  "variant": "DEFAULT",
   "version": 2,
   "verticalAlignment": "CENTER",
   "widgetId": "qoalyqj7wc",
