@@ -14,11 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -36,7 +32,7 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 74,
   "needsErrorInfo": false,
-  "onClick": "{{ storeValue(\"currentTab\", \"老板面板\")}}",
+  "onClick": "{{storeValue(\"currentTab\", \"老板面板\").then(() => {\n  resetWidget(\"Mission_Tab\", true);\n});}}",
   "originalBottomRow": 148,
   "originalTopRow": 144,
   "parentColumnSpace": 22.109375,

@@ -15,11 +15,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -47,7 +43,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ storeValue(\"currentTab\", \"解析面板\") }}",
+  "onClick": "{{storeValue(\"currentTab\", \"解析面板\").then(() => {\n  resetWidget(\"Mission_Tab\", true);\n});}}",
   "originalBottomRow": 41,
   "originalTopRow": 37,
   "parentColumnSpace": 12.234375,
