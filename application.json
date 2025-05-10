@@ -11,7 +11,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": false
     },
     "themeSetting": {
@@ -54,10 +54,6 @@
       "isDefault": false
     },
     {
-      "id": "LoginPage",
-      "isDefault": false
-    },
-    {
       "id": "ToolPage",
       "isDefault": false
     },
@@ -67,10 +63,6 @@
     },
     {
       "id": "解析面板",
-      "isDefault": false
-    },
-    {
-      "id": "LoginPage Copy Copy",
       "isDefault": false
     },
     {
@@ -89,7 +81,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": false
     },
     "themeSetting": {
