@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 140,
+  "bottomRow": 139,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -686,7 +686,7 @@
   "textColor": "{{}}",
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 34,
+  "topRow": 33,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 149,
+  "bottomRow": 148,
   "boxShadow": "none",
   "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
@@ -41,7 +41,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 15,
   "text": "清空",
-  "topRow": 145,
+  "topRow": 144,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "661iqzina0",
