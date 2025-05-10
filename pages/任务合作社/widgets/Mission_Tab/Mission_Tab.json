@@ -286,10 +286,13 @@
       "widgetName": "Canvas7"
     }
   ],
-  "defaultTab": "任务面板",
+  "defaultTab": "{{ appsmith.store.currentTab || \"任务面板\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "defaultTab"
     }
   ],
   "dynamicHeight": "FIXED",

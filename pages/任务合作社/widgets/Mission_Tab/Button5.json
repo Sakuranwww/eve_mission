@@ -47,7 +47,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ storeValue(Mission_Tab.selectedTab, \"解析面板\") }}",
+  "onClick": "{{ storeValue(\"currentTab\", \"解析面板\") }}",
   "originalBottomRow": 41,
   "originalTopRow": 37,
   "parentColumnSpace": 12.234375,
