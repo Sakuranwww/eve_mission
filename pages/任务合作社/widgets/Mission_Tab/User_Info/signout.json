@@ -27,7 +27,7 @@
   "key": "46gh2w00ie",
   "labelTextSize": "0.875rem",
   "leftColumn": 59,
-  "onClick": "{{ \n  storeValue(\"username\", \"\"); \n\tstoreValue(\"main_character\", \"\"); \n  storeValue(\"role\", \"\"); \n  storeValue(\"register_status\", \"\"); \n  storeValue(\"login_error\", \"\"); \n  navigateTo(\"登录页\", {}, \"SAME_WINDOW\"); \n}}",
+  "onClick": "{{ \n  navigateTo(\"登录页\", {}, \"SAME_WINDOW\"); \n}}",
   "originalBottomRow": 68,
   "originalTopRow": 64,
   "parentColumnSpace": 13,
