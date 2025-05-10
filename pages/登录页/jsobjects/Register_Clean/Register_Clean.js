@@ -32,5 +32,6 @@ export default {
     storeValue("login_error", "");      // 清除登录错误提示
     storeValue("username", "");         // 清除用户名
     storeValue("role", "");             // 清除用户角色
+		storeValue("main_character", "");   // 清除主要角色
   }
 };
