@@ -14,13 +14,6 @@ export default {
       if (login_check.data.length > 0) {
         const user = login_check.data[0];
 
-        // 先清空现有存储信息并存储新的用户信息
-        await Promise.all([
-          storeValue('username', ""),
-          storeValue('role', ""),
-          storeValue('main_character', ""),
-        ]);
-
         // 存储新的用户信息
         await Promise.all([
           storeValue('username', user.username),
