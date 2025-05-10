@@ -14,7 +14,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -32,7 +36,7 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 74,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('BossPage', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{ storeValue(\"currentTab\", \"老板面板\") }}",
   "originalBottomRow": 148,
   "originalTopRow": 144,
   "parentColumnSpace": 22.109375,
