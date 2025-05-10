@@ -33,7 +33,7 @@
   "key": "2xxenwele5",
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
-  "onClick": "{{ Register_Handler.handleRegister() }}",
+  "onClick": "{{ C_Register.handleRegister() }}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentColumnSpace": 13,

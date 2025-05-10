@@ -293,11 +293,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "onTabSelected"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onTabSelected"
@@ -317,7 +313,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "onTabSelected": "{{ storeValue(\"activeTab\", \"解析面板\") }}",
+  "onTabSelected": "{{}}",
   "parentColumnSpace": 15.671875,
   "parentId": "0",
   "parentRowSpace": 10,

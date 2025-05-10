@@ -30,7 +30,7 @@
   "key": "xmatypbkya",
   "labelTextSize": "0.875rem",
   "leftColumn": 46,
-  "onClick": "{{ A_Login.handleLogin() }}",
+  "onClick": "{{ B_Login.handleLogin() }}",
   "originalBottomRow": 66,
   "originalTopRow": 62,
   "parentColumnSpace": 13,

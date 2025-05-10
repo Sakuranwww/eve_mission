@@ -1,8 +1,8 @@
 {
   "gitSyncId": "681b61211413e43ed3535f6d_02d31fcf-0f94-43e2-a8eb-a16d64b039f9",
-  "id": "登录页_Register_Handler",
+  "id": "登录页_C_Register",
   "unpublishedCollection": {
-    "name": "Register_Handler",
+    "name": "C_Register",
     "pageId": "登录页",
     "pluginId": "js-plugin",
     "pluginType": "JS",
