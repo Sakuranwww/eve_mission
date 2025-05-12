@@ -15,11 +15,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -47,7 +43,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{ navigateTo(\"NewTaskPage\", {}, \"SAME_WINDOW\") }}",
+  "onClick": "{{navigateTo('解析面板', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentColumnSpace": 12.234375,

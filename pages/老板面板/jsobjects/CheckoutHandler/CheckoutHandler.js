@@ -28,7 +28,7 @@ export default {
     if (completedTasks.length === 0) {
       showAlert(" 未找到状态为 '已完成' 的任务", "info");
       return;
-    }
+    }	
 
     // 聚合数据，按 `acceptor` 汇总，并初始化 `marked` 字段
     const summaryByAcceptor = completedTasks.reduce((acc, task) => {
@@ -114,5 +114,70 @@ export default {
 
     copyToClipboard(row.acceptor);
     showAlert(`✅ 已复制：${row.acceptor}`, "success");
+  },
+  /**
+   * 复制结算信息
+   */
+  copyCheckoutInfo: () => {
+    const checkoutData = CheckoutTable.tableData || [];
+    const userData = check_user_query.data || [];
+    
+    if (checkoutData.length === 0) {
+      showAlert("没有可结算的信息", "warning");
+      return;
+    }
+
+    // 构建输出字符串
+    let output = `<font size="14" color="#ffd98d00">`;
+
+    checkoutData.forEach(entry => {
+      const { acceptor, total_isk } = entry;
+
+      // 查找 `character_id`，匹配 `main_character` 字段
+      const user = userData.find(user => user.main_character === acceptor);
+      const character_id = user ? user.character_id : "未知ID";
+
+      output += `<a href="showinfo:1383//${character_id}">${acceptor}</a><br/>${total_isk}<br/><br/>`;
+    });
+
+    output += `</font>`;
+
+    // 复制到剪贴板
+    copyToClipboard(output);
+    showAlert("结算信息已复制", "success");
+  },
+	  /**
+   * 更新选中的任务状态为 "已结算"
+   */
+  finalCheckOut: async () => {
+    const selectedRows = TaskTable.selectedRows || [];
+    const completedTasks = selectedRows.filter(row => row.status === "已完成");
+
+    if (!completedTasks.length) {
+      showAlert("❌ 未找到可结算的 '已完成' 任务", "warning");
+      return;
+    }
+
+    try {
+      // 执行结算更新
+      await Checkout.run({
+        updateRows: completedTasks.map(row => ({
+          "rowIndex": row.rowIndex,
+          "status": "已结算"
+        }))
+      });
+
+      showAlert(`✅ 成功结算 ${completedTasks.length} 条任务`, "success");
+
+      // 关闭结算 Modal
+      closeModal("CheckoutModal");
+
+      // 刷新任务数据
+      await query_task_log.run();
+
+    } catch (error) {
+      console.error("结算失败:", error);
+      showAlert("❌ 结算失败", "error");
+    }
   }
 };
