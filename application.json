@@ -26,27 +26,35 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "LoginPage",
-      "isDefault": false
-    },
-    {
-      "id": "HomePage",
+      "id": "主页",
       "isDefault": true
     },
     {
-      "id": "RegisterPage",
+      "id": "登录页",
       "isDefault": false
     },
     {
-      "id": "ToolPage",
+      "id": "注册页",
       "isDefault": false
     },
     {
-      "id": "BossPage",
+      "id": "做点面板",
       "isDefault": false
     },
     {
-      "id": "NewTaskPage",
+      "id": "老板面板",
+      "isDefault": false
+    },
+    {
+      "id": "解析面板",
+      "isDefault": false
+    },
+    {
+      "id": "打手面板",
+      "isDefault": false
+    },
+    {
+      "id": "榜单",
       "isDefault": false
     }
   ],
