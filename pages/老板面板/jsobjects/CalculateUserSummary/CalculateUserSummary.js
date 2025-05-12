@@ -1,12 +1,16 @@
 export default {
   /**
-   * 计算用户任务总数和总 ISK 奖励金额
+   * 计算已结算任务总数和总 ISK 奖励金额
    */
   calculateSummary: async function() {
     try {
-      const data = query_user_summary.data || [];
-      const total_tasks = data.length;
-      const total_isk = data.reduce((acc, item) => acc + (Number(item.reward_amount) || 0), 0);
+      const data = query_task_log.data || [];
+
+      // 筛选出 status 为 "已结算" 的任务
+      const settledTasks = data.filter(item => item.status === "已结算");
+
+      const total_tasks = settledTasks.length;
+      const total_isk = settledTasks.reduce((acc, item) => acc + (Number(item.reward_amount) || 0), 0);
 
       const result = {
         total_tasks: total_tasks,
@@ -14,7 +18,7 @@ export default {
       };
 
       // 将结果存储到 store 中
-      storeValue("userSummary", result);
+      await storeValue("userSummary", result);
 
       return result;
 
@@ -25,13 +29,5 @@ export default {
         total_isk: 0
       };
     }
-  },
-
-  /**
-   * 格式化 ISK 金额，带逗号分隔符
-   */
-  formatISK: function(amount) {
-    if (!amount || isNaN(amount)) return "0";
-    return new Intl.NumberFormat().format(amount);
   }
 };

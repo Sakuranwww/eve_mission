@@ -76,9 +76,9 @@
         "key": "formData.where.data.children[0].value"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "query_all_tasks",
     "pageId": "解析面板",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

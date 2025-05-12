@@ -3,10 +3,14 @@
   "borderRadius": "0px",
   "bottomRow": 26,
   "boxShadow": "none",
-  "buttonColor": "#03B365",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "displayName": "Button",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicPropertyPathList": [
     {
       "key": "onClick"
@@ -26,7 +30,7 @@
   "key": "2xxenwele5",
   "labelTextSize": "0.875rem",
   "leftColumn": 31,
-  "onClick": "{{ navigateTo(\"LoginPage\", {}, \"SAME_WINDOW\") }}\n",
+  "onClick": "{{ navigateTo(\"登录页\", {}, \"SAME_WINDOW\") }}\n",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentColumnSpace": 13,

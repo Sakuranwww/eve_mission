@@ -12,11 +12,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -44,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "navigateTo('BossPage')",
+  "onClick": "{{navigateTo('老板面板', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 80,
   "originalTopRow": 76,
   "parentColumnSpace": 12.234375,

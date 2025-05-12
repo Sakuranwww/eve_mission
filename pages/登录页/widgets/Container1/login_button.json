@@ -26,7 +26,7 @@
   "key": "xmatypbkya",
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
-  "onClick": "{{ \n  login_query.run(() => {\n    if (login_query.data.length > 0) {\n  storeValue('username', username_input.text); \n  storeValue('role', login_query.data[0].role);\n\tstoreValue('main_character', login_query.data[0]?.main_character);// \n      navigateTo(\"主页\", {}, \"SAME_WINDOW\");\n    } else {\n      showAlert('用户名或密码错误', 'error');\n    }\n  }, (err) => {\n    showAlert('查询失败，请检查连接', 'error');\n  })\n}}",
+  "onClick": "{{ LoginHandler.handleLogin() }}",
   "originalBottomRow": 18,
   "originalTopRow": 14,
   "parentColumnSpace": 13,

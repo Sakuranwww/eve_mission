@@ -46,7 +46,7 @@ export default {
     // ⬇️ 插入后刷新数据库任务并重新解析一次
     try {
       await query_all_tasks.run();             // 刷新数据库中所有任务
-      ParserJS.parseTaskLines();               // 再次解析原始文本
+      Parser.parseTaskLines();               // 再次解析原始文本
     } catch (err) {
       console.error("刷新或重新解析失败:", err);
     }

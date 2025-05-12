@@ -513,7 +513,7 @@
       "isVisible": true,
       "label": "操作",
       "notation": "standard",
-      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter } = currentRow;\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === posted_at &&\n          t.postcharacter === postcharacter\n        )\n    );\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
+      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter, 识别状态, star_system } = currentRow;\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === posted_at &&\n          t.postcharacter === postcharacter &&\n          t.识别状态 === 识别状态 &&\n          t.star_system === star_system\n        )\n    );\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
       "originalId": "status",
       "sticky": "left",
       "textColor": "",

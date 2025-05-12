@@ -63,7 +63,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "你过去一共发了 {{ CalculateUserSummary.formatISK(appsmith.store.userSummary?.total_isk || 0) }} ISK 工资，结算了 {{ appsmith.store.userSummary?.total_tasks || 0 }} 个任务",
+  "text": "你过去一共发了 {{ FormatISK.formatISK(appsmith.store.userSummary?.total_isk || 0) }} ISK 工资，结算了 {{ appsmith.store.userSummary?.total_tasks || 0 }} 个任务",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",

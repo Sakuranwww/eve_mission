@@ -1,8 +1,8 @@
 {
   "gitSyncId": "68178e172d3f7f10acddd368_ec455fea-a0d5-464c-9d74-de4452430dbb",
-  "id": "解析面板_ParserJS",
+  "id": "解析面板_Parser",
   "unpublishedCollection": {
-    "name": "ParserJS",
+    "name": "Parser",
     "pageId": "解析面板",
     "pluginId": "js-plugin",
     "pluginType": "JS",
