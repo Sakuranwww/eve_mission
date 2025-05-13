@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "682204b3042562639da02587_e0b4114c-e0e6-4c8a-bddd-595d84cb77d2",
+  "id": "老板面板_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "老板面板",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
