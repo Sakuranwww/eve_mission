@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "682204b3042562639da02587_37794d72-ed8e-4353-9ecf-46e0a2c78ed9",
-  "id": "打手面板_Completed",
+  "gitSyncId": "682204b3042562639da02587_8d8eefcd-8e77-43f3-9f22-abd0b1068b89",
+  "id": "接受面板_accept_tasks",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{\n  TaskTable.selectedRows\n    .filter(row => row.status === \"已接受\"|| row.status === \"返工\")\n    .map(row => {\n      return {\n        \"rowIndex\": row.rowIndex,\n        \"status\": \"已完成\",\n        \"compeleted_at\": Date.now()\n      };\n    })\n}}"
+          "data": "{{\n  (appsmith.store.parsed_tasks || [])\n    .filter(t => t[\"能否录入\"] === \"是\")\n    .map(t => ({\n      \"rowIndex\": t.rowIndex,\n      \"status\": \"已接受\",\n      \"acceptor\": appsmith.store.main_character,\n      \"accpet_at\": Date.now()\n    }))\n}}"
         },
         "sheetName": {
           "data": "task_log"
@@ -65,8 +65,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Completed",
-    "pageId": "打手面板",
+    "name": "accept_tasks",
+    "pageId": "接受面板",
     "userSetOnLoad": false
   }
 }

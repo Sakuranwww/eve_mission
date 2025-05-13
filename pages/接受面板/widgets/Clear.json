@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 79,
+  "bottomRow": 75,
   "boxShadow": "none",
-  "buttonColor": "#3b82f6",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
@@ -26,11 +26,11 @@
   "isLoading": false,
   "isVisible": true,
   "key": "yjtrk46lau",
-  "leftColumn": 5,
+  "leftColumn": 10,
   "minWidth": 120,
   "mobileBottomRow": 79,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 21,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 26,
   "mobileTopRow": 75,
   "needsErrorInfo": false,
   "onCanvasUI": {
@@ -40,9 +40,9 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{navigateTo('老板面板', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 79,
-  "originalTopRow": 75,
+  "onClick": "{{removeValue('parsed_tasks');}}",
+  "originalBottomRow": 75,
+  "originalTopRow": 71,
   "parentColumnSpace": 12.234375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -51,7 +51,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 10,
+  "rightColumn": 15,
   "searchTags": [
     "click",
     "submit"
@@ -59,11 +59,11 @@
   "tags": [
     "Buttons"
   ],
-  "text": "返回",
+  "text": "清空",
   "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-  "topRow": 75,
+  "topRow": 71,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "yuugnwaf5d",
-  "widgetName": "Back_Boss"
+  "widgetId": "xac3vc9nji",
+  "widgetName": "Clear"
 }

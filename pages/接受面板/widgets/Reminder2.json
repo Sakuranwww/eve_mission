@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 75,
+  "bottomRow": 71,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -47,8 +47,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 75,
-  "originalTopRow": 71,
+  "originalBottomRow": 71,
+  "originalTopRow": 67,
   "overflow": "NONE",
   "parentColumnSpace": 12.234375,
   "parentId": "0",
@@ -66,14 +66,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{ \n  (appsmith.store.parsed_tasks || []).filter(row => row[\"能否录入\"] === \"是\").length \n}} 个可创建  \n",
+  "text": "{{ \n  (appsmith.store.parsed_tasks || []).filter(row => row[\"能否录入\"] === \"是\").length \n}} 个可接受  \n",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 71,
+  "topRow": 67,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "681ufarih9",
+  "widgetId": "ni37x46qab",
   "widgetName": "Reminder2"
 }

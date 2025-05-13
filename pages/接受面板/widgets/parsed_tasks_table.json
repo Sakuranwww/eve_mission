@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 71,
+  "bottomRow": 67,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -31,7 +31,7 @@
     }
   },
   "columnOrder": [
-    "status",
+    "customColumn1",
     "xn__y5qx0eo9ow17a",
     "xn__mcr205aqsohux",
     "task_name",
@@ -43,13 +43,15 @@
     "posted_at",
     "poster",
     "postcharacter",
+    "status",
+    "rowIndex",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1746532604937,
+  "columnUpdatedAt": 1747146859032,
   "columnWidthMap": {
     "can_record": 94,
     "constellation": 82,
-    "customColumn1": 100,
+    "customColumn1": 71,
     "customColumn2": 98,
     "postcharacter": 116,
     "posted_at": 172,
@@ -58,7 +60,8 @@
     "reward_amount": 173,
     "star_system": 92,
     "status": 68,
-    "tag": 278,
+    "tag": 215,
+    "xn__mcr205aqsohux": 144,
     "xn__y5qx0eo9ow17a": 97
   },
   "compactMode": "SHORT",
@@ -80,33 +83,6 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.task_name.computedValue"
-    },
-    {
-      "key": "primaryColumns.tag.computedValue"
-    },
-    {
-      "key": "primaryColumns.star_system.computedValue"
-    },
-    {
-      "key": "primaryColumns.constellation.computedValue"
-    },
-    {
-      "key": "primaryColumns.region.computedValue"
-    },
-    {
-      "key": "primaryColumns.posted_at.computedValue"
-    },
-    {
-      "key": "primaryColumns.poster.computedValue"
-    },
-    {
-      "key": "primaryColumns.postcharacter.computedValue"
-    },
-    {
-      "key": "primaryColumns.status.computedValue"
-    },
-    {
       "key": "primaryColumns.EditActions1.textColor"
     },
     {
@@ -125,15 +101,6 @@
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
     },
     {
-      "key": "primaryColumns.status.borderRadius"
-    },
-    {
-      "key": "primaryColumns.status.boxShadow"
-    },
-    {
-      "key": "primaryColumns.reward_amount.computedValue"
-    },
-    {
       "key": "primaryColumns.xn__y5qx0eo9ow17a.computedValue"
     },
     {
@@ -144,6 +111,81 @@
     },
     {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
+    },
+    {
+      "key": "primaryColumns.task_name.textColor"
+    },
+    {
+      "key": "primaryColumns.task_name.computedValue"
+    },
+    {
+      "key": "primaryColumns.reward_amount.textColor"
+    },
+    {
+      "key": "primaryColumns.reward_amount.computedValue"
+    },
+    {
+      "key": "primaryColumns.tag.textColor"
+    },
+    {
+      "key": "primaryColumns.tag.computedValue"
+    },
+    {
+      "key": "primaryColumns.star_system.textColor"
+    },
+    {
+      "key": "primaryColumns.star_system.computedValue"
+    },
+    {
+      "key": "primaryColumns.constellation.textColor"
+    },
+    {
+      "key": "primaryColumns.constellation.computedValue"
+    },
+    {
+      "key": "primaryColumns.region.textColor"
+    },
+    {
+      "key": "primaryColumns.region.computedValue"
+    },
+    {
+      "key": "primaryColumns.posted_at.textColor"
+    },
+    {
+      "key": "primaryColumns.posted_at.computedValue"
+    },
+    {
+      "key": "primaryColumns.poster.textColor"
+    },
+    {
+      "key": "primaryColumns.poster.computedValue"
+    },
+    {
+      "key": "primaryColumns.postcharacter.textColor"
+    },
+    {
+      "key": "primaryColumns.postcharacter.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.textColor"
+    },
+    {
+      "key": "primaryColumns.status.computedValue"
+    },
+    {
+      "key": "primaryColumns.rowIndex.textColor"
+    },
+    {
+      "key": "primaryColumns.rowIndex.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.textColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
     }
   ],
   "dynamicPropertyPathList": [
@@ -160,18 +202,18 @@
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
     },
     {
-      "key": "primaryColumns.status.onClick"
-    },
-    {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
     },
     {
       "key": "primaryColumns.xn__y5qx0eo9ow17a.textColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
     {
-      "key": "primaryColumns.status.onClick"
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -205,8 +247,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 71,
-  "originalTopRow": 33,
+  "originalBottomRow": 67,
+  "originalTopRow": 29,
   "parentColumnSpace": 12.234375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -259,15 +301,17 @@
       "alias": "constellation",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"constellation\"])) :  currentRow[\"constellation\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"constellation\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "constellation",
-      "index": 4,
+      "index": 6,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -280,7 +324,47 @@
       "notation": "standard",
       "originalId": "constellation",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "操作",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "#ef4444",
+      "buttonLabel": "删除",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "button",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "操作",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter, 识别状态, star_system } = currentRow;\n\n    // 👉 转换格式化时间字符串为 Unix 时间戳（毫秒）\n    const timestamp = new Date(posted_at.replace(\" \", \"T\") + \"Z\").getTime();\n\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === timestamp &&\n          t.postcharacter === postcharacter &&\n          t.识别状态 === 识别状态 &&\n          t.star_system === star_system\n        )\n    );\n\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
+      "originalId": "customColumn1",
+      "sticky": "left",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -293,7 +377,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"postcharacter\"])) :  currentRow[\"postcharacter\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"postcharacter\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -301,7 +385,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "postcharacter",
-      "index": 8,
+      "index": 10,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -314,7 +398,7 @@
       "notation": "standard",
       "originalId": "postcharacter",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -325,15 +409,17 @@
       "alias": "posted_at",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"posted_at\"])) :  currentRow[\"posted_at\"] })()}}",
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (FormatDate.formatDate(\ncurrentRow[\"posted_at\"]))) : FormatDate.formatDate(\ncurrentRow[\"posted_at\"]) })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "posted_at",
-      "index": 6,
+      "index": 8,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -342,11 +428,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "发布日期",
+      "label": "发布时间",
       "notation": "standard",
       "originalId": "posted_at",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -357,15 +443,17 @@
       "alias": "poster",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"poster\"])) :  currentRow[\"poster\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"poster\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "poster",
-      "index": 7,
+      "index": 9,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -374,11 +462,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "发布人",
+      "label": "发布玩家",
       "notation": "standard",
       "originalId": "poster",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -389,15 +477,17 @@
       "alias": "region",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"region\"])) :  currentRow[\"region\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"region\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "region",
-      "index": 5,
+      "index": 7,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -410,7 +500,7 @@
       "notation": "standard",
       "originalId": "region",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -422,8 +512,8 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (  \n  currentRow.reward_amount \n    ? currentRow.reward_amount.toLocaleString() + \" ISK (\" + (currentRow.reward_amount / 1000000) + \"M)\"\n    : \"\"\n)) :   \n  currentRow.reward_amount \n    ? currentRow.reward_amount.toLocaleString() + \" ISK (\" + (currentRow.reward_amount / 1000000) + \"M)\"\n    : \"\"\n })()}}",
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( FormatDate.formatDate(\ncurrentRow[\"posted_at\"]))) :  FormatDate.formatDate(\ncurrentRow[\"posted_at\"]) })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -431,7 +521,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "reward_amount",
-      "index": 1,
+      "index": 3,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -444,7 +534,41 @@
       "notation": "standard",
       "originalId": "reward_amount",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "rowIndex": {
+      "alias": "rowIndex",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "rowIndex",
+      "index": 12,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "rowIndex",
+      "notation": "standard",
+      "originalId": "rowIndex",
+      "sticky": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -455,15 +579,17 @@
       "alias": "star_system",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"star_system\"])) :  currentRow[\"star_system\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"star_system\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "star_system",
-      "index": 3,
+      "index": 5,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -476,7 +602,7 @@
       "notation": "standard",
       "originalId": "star_system",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -487,36 +613,30 @@
       "alias": "status",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "borderRadius": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-      "boxShadow": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-      "buttonColor": "#ef4444",
-      "buttonLabel": "删除",
       "cellBackground": "",
-      "columnType": "button",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"status\"])) :  currentRow[\"status\"] })()}}",
+      "columnType": "text",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
       "currencyCode": "USD",
-      "customAlias": "",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "status",
-      "index": 9,
-      "isCellEditable": true,
+      "index": 11,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
-      "label": "操作",
+      "isVisible": false,
+      "label": "status",
       "notation": "standard",
-      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter, 识别状态, star_system } = currentRow;\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === posted_at &&\n          t.postcharacter === postcharacter &&\n          t.识别状态 === 识别状态 &&\n          t.star_system === star_system\n        )\n    );\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
       "originalId": "status",
-      "sticky": "left",
-      "textColor": "",
+      "sticky": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -527,15 +647,17 @@
       "alias": "tag",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"tag\"])) :  currentRow[\"tag\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tag\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "tag",
-      "index": 2,
+      "index": 4,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -548,7 +670,7 @@
       "notation": "standard",
       "originalId": "tag",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -559,15 +681,17 @@
       "alias": "task_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"task_name\"])) :  currentRow[\"task_name\"] })()}}",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task_name\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "task_name",
-      "index": 0,
+      "index": 2,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -580,7 +704,7 @@
       "notation": "standard",
       "originalId": "task_name",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -644,7 +768,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "能否录入",
+      "label": "能否接受",
       "notation": "standard",
       "originalId": "能否录入",
       "sticky": "left",
@@ -669,7 +793,7 @@
   "textColor": "{{}}",
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 33,
+  "topRow": 29,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

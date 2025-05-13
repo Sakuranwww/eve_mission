@@ -43,9 +43,10 @@
     "posted_at",
     "poster",
     "postcharacter",
+    "rowIndex",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1746532604937,
+  "columnUpdatedAt": 1747146206752,
   "columnWidthMap": {
     "can_record": 94,
     "constellation": 82,
@@ -144,6 +145,12 @@
     },
     {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
+    },
+    {
+      "key": "primaryColumns.rowIndex.textColor"
+    },
+    {
+      "key": "primaryColumns.rowIndex.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -326,7 +333,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"posted_at\"])) :  currentRow[\"posted_at\"] })()}}",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( FormatDate.formatDate(\ncurrentRow[\"posted_at\"])) :  FormatDate.formatDate(\ncurrentRow[\"posted_at\"] })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -423,7 +430,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (  \n  currentRow.reward_amount \n    ? currentRow.reward_amount.toLocaleString() + \" ISK (\" + (currentRow.reward_amount / 1000000) + \"M)\"\n    : \"\"\n)) :   \n  currentRow.reward_amount \n    ? currentRow.reward_amount.toLocaleString() + \" ISK (\" + (currentRow.reward_amount / 1000000) + \"M)\"\n    : \"\"\n })()}}",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (  \n  FormatISK.formatISK(currentRow.reward_amount)\n)) :   \n  FormatISK.formatISK(currentRow.reward_amount)\n })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -445,6 +452,40 @@
       "originalId": "reward_amount",
       "sticky": "",
       "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "rowIndex": {
+      "alias": "rowIndex",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "rowIndex",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "rowIndex",
+      "notation": "standard",
+      "originalId": "rowIndex",
+      "sticky": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -513,7 +554,7 @@
       "isVisible": true,
       "label": "操作",
       "notation": "standard",
-      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter, 识别状态, star_system } = currentRow;\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === posted_at &&\n          t.postcharacter === postcharacter &&\n          t.识别状态 === 识别状态 &&\n          t.star_system === star_system\n        )\n    );\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
+      "onClick": "{{\n  (() => {\n    const { task_name, posted_at, postcharacter, 识别状态, star_system } = currentRow;\n\n    // 👉 转换格式化时间字符串为 Unix 时间戳（毫秒）\n    const timestamp = new Date(posted_at.replace(\" \", \"T\") + \"Z\").getTime();\n\n    const updated = (appsmith.store.parsed_tasks || []).filter(\n      t =>\n        !(\n          t.task_name === task_name &&\n          t.posted_at === timestamp &&\n          t.postcharacter === postcharacter &&\n          t.识别状态 === 识别状态 &&\n          t.star_system === star_system\n        )\n    );\n\n    storeValue(\"parsed_tasks\", updated);\n  })()\n}}",
       "originalId": "status",
       "sticky": "left",
       "textColor": "",

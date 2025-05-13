@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "0px",
-  "bottomRow": 29,
+  "bottomRow": 25,
   "boxShadow": "none",
   "defaultText": "",
   "displayName": "Input",
@@ -46,7 +46,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 29,
+  "originalBottomRow": 25,
   "originalTopRow": 10,
   "parentColumnSpace": 12.234375,
   "parentId": "0",
