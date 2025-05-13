@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 63,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5ydbhy2yfi",
+  "leftColumn": 17,
+  "minWidth": 120,
+  "mobileBottomRow": 63,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 59,
+  "needsErrorInfo": false,
+  "onClick": "{{CheckoutHandler.finalCheckOut().then(() => {\n  closeModal(CheckoutModal.name);\n  Initialize.initializeFilters();\n});}}",
+  "parentColumnSpace": 11.15625,
+  "parentId": "3mjzc101rg",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 24,
+  "text": "已结算",
+  "topRow": 59,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ozf8w93y0a",
+  "widgetName": "Final_CheckOut"
+}

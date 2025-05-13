@@ -179,5 +179,17 @@ export default {
       console.error("结算失败:", error);
       showAlert("❌ 结算失败", "error");
     }
+  },
+	  /**
+   * 选择所有 "已完成" 状态任务
+   */
+  selectAllCompletedTasks: async () => {
+    const data = TaskTable.tableData || [];
+    const completedIndices = data
+      .map((row, index) => (row.status === "已完成" ? index : null))
+      .filter(index => index !== null);
+
+    // 将 completedIndices 存储到 store 中
+    await storeValue("selectedIndices", completedIndices);
   }
 };

@@ -6,5 +6,6 @@ export default {
     storeValue("filter_completed", true);
     storeValue("filter_settled", false);
     storeValue("filter_returned", true);
+		storeValue("selectedIndices", "");
   },
 }

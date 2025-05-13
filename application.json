@@ -54,6 +54,10 @@
       "isDefault": false
     },
     {
+      "id": "接受面板",
+      "isDefault": false
+    },
+    {
       "id": "榜单",
       "isDefault": false
     }

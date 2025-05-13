@@ -61,9 +61,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "{{ appsmith.store.selectedIndices }}",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -125,6 +123,9 @@
     },
     {
       "key": "primaryColumns.postcharacter.computedValue"
+    },
+    {
+      "key": "defaultSelectedRowIndices"
     }
   ],
   "dynamicPropertyPathList": [
@@ -161,6 +162,7 @@
   "mobileTopRow": 23,
   "multiRowSelection": true,
   "needsErrorInfo": false,
+  "onSort": "{{}}",
   "originalBottomRow": 93,
   "originalTopRow": 26,
   "parentColumnSpace": 13.40625,
