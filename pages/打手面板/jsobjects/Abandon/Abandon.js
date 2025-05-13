@@ -3,7 +3,7 @@ export default {
     const selected = TaskTable.selectedRows || [];
 
     // 仅保留状态为"已接受"的任务
-    const toAbandon = selected.filter(row => row.status === "已接受");
+    const toAbandon = selected.filter(row => row.status === "已接受" || row.status === "返工");
 
     if (toAbandon.length === 0) {
       showAlert("❌ 没有选中任何 '已接受' 的任务可放弃", "warning");

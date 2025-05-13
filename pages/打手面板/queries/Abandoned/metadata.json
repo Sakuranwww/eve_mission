@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{\n  TaskTable.selectedRows\n    .filter(row => row.status === \"已接受\")\n    .map(row => ({\n      rowIndex: row.rowIndex,\n      \"status\": \"待接受\",\n      \"acceptor\": \"\",\n      \"accpet_at\": \"\",\n      \"compeleted_at\": \"\"\n    }))\n}}"
+          "data": "{{\n  TaskTable.selectedRows\n    .filter(row => row.status === \"已接受\"|| row.status === \"返工\")\n    .map(row => ({\n      rowIndex: row.rowIndex,\n      \"status\": \"待接受\",\n      \"acceptor\": \"\",\n      \"accpet_at\": \"\",\n      \"compeleted_at\": \"\"\n    }))\n}}"
         },
         "sheetName": {
           "data": "task_log"
