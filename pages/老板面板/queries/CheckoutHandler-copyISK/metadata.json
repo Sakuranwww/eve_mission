@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "CheckoutHandler.copyISK",
     "name": "copyISK",
     "pageId": "老板面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

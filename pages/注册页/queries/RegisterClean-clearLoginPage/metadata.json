@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "RegisterClean.clearLoginPage",
     "name": "clearLoginPage",
     "pageId": "注册页",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

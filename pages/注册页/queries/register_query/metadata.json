@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "register_query",
     "pageId": "注册页",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

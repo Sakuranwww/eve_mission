@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "accept_tasks",
     "pageId": "接受面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

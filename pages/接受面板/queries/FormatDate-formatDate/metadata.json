@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "FormatDate.formatDate",
     "name": "formatDate",
     "pageId": "接受面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

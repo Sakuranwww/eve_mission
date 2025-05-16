@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "insert_tasks",
     "pageId": "解析面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

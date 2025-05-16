@@ -84,9 +84,9 @@
         "key": "formData.where.data.children[1].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "check_user_query",
     "pageId": "注册页",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

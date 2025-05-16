@@ -77,9 +77,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "Checkout",
     "pageId": "老板面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

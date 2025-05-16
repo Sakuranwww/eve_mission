@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "PageGuard.checkAccess",
     "name": "checkAccess",
     "pageId": "解析面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

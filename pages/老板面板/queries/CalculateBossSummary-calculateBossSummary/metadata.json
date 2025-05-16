@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "CalculateBossSummary.calculateBossSummary",
     "name": "calculateBossSummary",
     "pageId": "老板面板",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

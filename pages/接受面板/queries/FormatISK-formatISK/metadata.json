@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "FormatISK.formatISK",
     "name": "formatISK",
     "pageId": "接受面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

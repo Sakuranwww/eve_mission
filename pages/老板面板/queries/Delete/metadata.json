@@ -64,9 +64,9 @@
         "key": "formData.rowIndex.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "Delete",
     "pageId": "老板面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

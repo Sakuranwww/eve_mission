@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "DeleteHandler.deleteSelectedTask",
     "name": "deleteSelectedTask",
     "pageId": "老板面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

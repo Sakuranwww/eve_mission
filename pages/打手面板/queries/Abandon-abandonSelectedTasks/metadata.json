@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "Abandon.abandonSelectedTasks",
     "name": "abandonSelectedTasks",
     "pageId": "打手面板",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

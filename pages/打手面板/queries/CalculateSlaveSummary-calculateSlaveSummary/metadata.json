@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "CalculateSlaveSummary.calculateSlaveSummary",
     "name": "calculateSlaveSummary",
     "pageId": "打手面板",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }
