@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "682204b3042562639da02587_2784b084-57a3-4573-82d2-4af8f3c51144",
+  "gitSyncId": "682204b3042562639da02587_99ef8a40-96b6-4581-b23c-6ef3ba067c18",
   "id": "老板面板_Checkout",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
@@ -40,24 +40,11 @@
         "smartSubstitution": {
           "data": true
         },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
-        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "children": [
-              {
-                "condition": "LT"
-              }
-            ],
             "condition": "AND"
           }
         }
