@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "682204b3042562639da02587_431c8268-3b63-4d06-bf1a-de424c6a3b99",
-  "id": "主页_TaskStats.getPendingStatsByConstellation",
+  "gitSyncId": "682204b3042562639da02587_83b7c7b5-eb54-41cc-a073-c2cdd70aad30",
+  "id": "主页_TaskStats.getPendingStatsByStarSystem",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "TaskStats.getPendingStatsByConstellation",
-    "name": "getPendingStatsByConstellation",
+    "fullyQualifiedName": "TaskStats.getPendingStatsByStarSystem",
+    "name": "getPendingStatsByStarSystem",
     "pageId": "主页",
-    "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": true
+    "runBehaviour": "MANUAL",
+    "userSetOnLoad": false
   }
 }

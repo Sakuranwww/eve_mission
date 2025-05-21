@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 33,
+  "bottomRow": 66,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": false,
@@ -32,15 +32,16 @@
     }
   },
   "columnOrder": [
-    "constellation",
+    "star_system",
     "totalReward",
     "count"
   ],
-  "columnUpdatedAt": 1747667617139,
+  "columnUpdatedAt": 1747819125792,
   "columnWidthMap": {
     "constellation": 98,
     "count": 95,
-    "totalReward": 232
+    "star_system": 101,
+    "totalReward": 185
   },
   "compactMode": "SHORT",
   "customIsLoading": false,
@@ -65,13 +66,13 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.constellation.computedValue"
-    },
-    {
       "key": "primaryColumns.count.computedValue"
     },
     {
       "key": "primaryColumns.totalReward.computedValue"
+    },
+    {
+      "key": "primaryColumns.star_system.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -105,37 +106,6 @@
   "parentId": "7nys44nev6",
   "parentRowSpace": 10,
   "primaryColumns": {
-    "constellation": {
-      "alias": "constellation",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"constellation\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "constellation",
-      "index": 0,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "星座",
-      "notation": "standard",
-      "originalId": "constellation",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "count": {
       "alias": "count",
       "allowCellWrapping": false,
@@ -161,6 +131,40 @@
       "notation": "standard",
       "originalId": "count",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "star_system": {
+      "alias": "star_system",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"star_system\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "star_system",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "星系",
+      "notation": "standard",
+      "originalId": "star_system",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -203,7 +207,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "tableData": "{{ TaskStats.getPendingStatsByConstellation() }}",
+  "tableData": "{{ TaskStats.getPendingStatsByStarSystem() }}",
   "textSize": "0.875rem",
   "topRow": 4,
   "totalRecordsCount": 0,

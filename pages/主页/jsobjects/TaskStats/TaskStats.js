@@ -11,31 +11,31 @@ export default {
       count
     }
   },
-getPendingStatsByConstellation: () => {
-    const tasks = query_task_log.data || [];
+getPendingStatsByStarSystem: () => {
+  const tasks = query_task_log.data || [];
 
-    const pending = tasks.filter(t => t.status === "待接受");
+  const pending = tasks.filter(t => t.status === "待接受");
 
-    const resultMap = {};
+  const resultMap = {};
 
-    pending.forEach(t => {
-      const cons = t.constellation;
-      const reward = t.reward_amount || 0;
+  pending.forEach(t => {
+    const system = t.star_system;
+    const reward = t.reward_amount || 0;
 
-      if (!resultMap[cons]) {
-        resultMap[cons] = { totalReward: 0, count: 0 };
-      }
+    if (!resultMap[system]) {
+      resultMap[system] = { totalReward: 0, count: 0 };
+    }
 
-      resultMap[cons].totalReward += reward;
-      resultMap[cons].count += 1;
-    });
+    resultMap[system].totalReward += reward;
+    resultMap[system].count += 1;
+  });
 
-    return Object.entries(resultMap).map(([constellation, { totalReward, count }]) => ({
-      constellation,
-      totalReward,
-      count
-    }));
-  },
+  return Object.entries(resultMap).map(([star_system, { totalReward, count }]) => ({
+    star_system,
+    totalReward,
+    count
+  }));
+},
   getPendingStatsByTaskType: () => {
     const allTasks = get_all_tasks.data || [];
     const taskMap = {};
