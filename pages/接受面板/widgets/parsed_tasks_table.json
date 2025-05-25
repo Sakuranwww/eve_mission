@@ -60,7 +60,7 @@
     "reward_amount": 173,
     "star_system": 92,
     "status": 68,
-    "tag": 215,
+    "tag": 230,
     "xn__mcr205aqsohux": 144,
     "xn__y5qx0eo9ow17a": 97
   },
@@ -513,7 +513,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( FormatDate.formatDate(\ncurrentRow[\"posted_at\"]))) :  FormatDate.formatDate(\ncurrentRow[\"posted_at\"]) })()}}",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( FormatISK.formatISK(\ncurrentRow[\"reward_amount\"]))) :  FormatISK.formatISK(\ncurrentRow[\"reward_amount\"]) })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,

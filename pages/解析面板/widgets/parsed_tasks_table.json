@@ -43,9 +43,10 @@
     "posted_at",
     "poster",
     "postcharacter",
+    "rowIndex",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1747147487048,
+  "columnUpdatedAt": 1748180236103,
   "columnWidthMap": {
     "can_record": 94,
     "constellation": 82,
@@ -144,6 +145,12 @@
     },
     {
       "key": "primaryColumns.xn__mcr205aqsohux.textColor"
+    },
+    {
+      "key": "primaryColumns.rowIndex.textColor"
+    },
+    {
+      "key": "primaryColumns.rowIndex.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -445,6 +452,40 @@
       "originalId": "reward_amount",
       "sticky": "",
       "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "rowIndex": {
+      "alias": "rowIndex",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "rowIndex",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "rowIndex",
+      "notation": "standard",
+      "originalId": "rowIndex",
+      "sticky": "",
+      "textColor": "{{}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
