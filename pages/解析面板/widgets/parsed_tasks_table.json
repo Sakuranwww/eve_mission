@@ -464,7 +464,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{parsed_tasks_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
+      "computedValue": "{{(() => { const tableData = parsed_tasks_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"])) :  currentRow[\"rowIndex\"] })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
