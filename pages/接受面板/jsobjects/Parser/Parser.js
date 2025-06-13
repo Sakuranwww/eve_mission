@@ -1,5 +1,7 @@
 export default {
   parseTaskLines: () => {
+		query_all_tasks.run(); // 先运行查询任务
+		
     const raw = input_raw_text.text || "";
     const lines = raw.trim().split("\n");
 
